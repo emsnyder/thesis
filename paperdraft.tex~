@@ -1,0 +1,197 @@
+\documentclass[iop,apj,twocolappendix]{emulateapj}
+\pdfoutput=1 %for arxiv submission to use pdf
+\usepackage{apjfonts}
+\usepackage{amsmath,amstext,textcomp}
+\usepackage[breaklinks,colorlinks,citecolor=blue,linkcolor=magenta]{hyperref} 
+\usepackage[all]{hypcap} %Links go to figures. This breaks deluxetables; use \capstartfalse \capstarttrue around deluxetables to fix it.
+\renewcommand{\sectionautorefname}{\S} %for \autoref
+\renewcommand{\subsectionautorefname}{\S} %for \autoref
+\renewcommand{\subsubsectionautorefname}{\S} %for \autoref
+
+%\renewcommand{\deg}{\ensuremath{^{\circ}}\xspace} %defines a degree symbol
+
+\shorttitle{CCGs in the RESOLVE Survey}
+\shortauthors{Snyder et al.}
+
+\begin{document}
+
+\title{The Formation and Evolution of Compact Core Galaxies in the RESOLVE Survey}
+\author{Elaine M. Snyder\altaffilmark{1}}
+\author{Sheila J. Kannappan\altaffilmark{1}}
+\author{Dara J. Norman\altaffilmark{2}}
+\author{Mark N. Norris\altaffilmark{3}}
+\author{Callie Hood\altaffilmark{1}}
+\author{Ashley S. Bittner\altaffilmark{1}}
+\author{Christine Ray\altaffilmark{1,4}}
+\author{Kathleen D. Eckert\altaffilmark{1}}
+\author{the RESOLVE Team}
+\affil{$^1$University of North Carolina at Chapel Hill}
+\affil{$^2$National Optical Astronomical Observatory}
+\affil{$^3$University of Central Lancashire}
+\affil{$^4$Rutgers, The State University of New Jersey}
+\begin{abstract}
+We analyze the complete set of compact core galaxies (CCGs) in the volume-limited RESOLVE survey to investigate the formation and evolution of compact galaxies across a broad statistical distribution of environments. CCGs include both compact ellipticals (cEs) and compact cores surrounded by an envelope of gas and stars, which may represent earlier or later evolutionary stages of cEs. We select CCGs to have core-only radius $<800$pc, an upper limit that encompasses all of the similarly compact stellar systems (ultra compact dwarfs, cEs, nucleated dwarf ellipticals) included in the Archive of Intermediate Mass Stellar Systems (AIMSS) catalog. CCGs naturally occur in a range of environments from isolated to cluster. With GALEX NUV data, we derive star formation histories and find that a significant number of CCGs have recently formed stars. We compare velocity dispersions of CCGs derived from Gemini IFU data to velocity dispersions of other RESOLVE galaxies derived from SOAR spectroscopy. We search for CCGs offset to higher or lower dispersion in the dispersion-stellar mass relation, which may indicate tidal stripping or dissipative formation, respectively. Initial results show several CCGs following the dissipative formation track.
+\end{abstract}
+
+\keywords{galaxies: formation; galaxies: evolution}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\label{intro}
+
+\noindent The term compact stellar system (CSS) composes a class of galaxies that spans the radius range ($\sim10 - 800$ pc), lying between globular clusters (GCs) and normal elliptical galaxies (Es). Different types of CSSs include ultra compact dwarf galaxies (UCDs; \cite{Phillipps2001}), compact elliptical galaxies (cEs; \cite{Faber1973}), dwarf elliptical galaxies (dEs), and nucleated dwarf elliptical galaxies (dE,Ns).  There are many unanswered questions about these types of galaxies, typically involving how they form and evolve. One fact that makes the study of these compact galaxies so intriguing is their relative scarcity, which raises the question as to whether they are in an intermediate and short-lived evolutionary phase, or simply hard to find due to their size. Only in the last 15 years have we discovered enough ($\sim 40$) of these objects to enable studies of their formation scenarios and evolution over cosmic time.
+
+\subsection{Introduction to UCDs}
+UCDs, the smallest of the CSSs mentioned above with radii ranging from 10--100 pc (see Figure 11 in \cite{Norris2014}), are largely believed to be either the high mass extension of the globular cluster population (\cite{Drinkwater2000}, \cite{Mieske2002}) or tidally-stripped remnants of nucleated dwarf galaxies (\cite{Bekki2001}, \cite{Bekki2003}, \cite{Jennings2015}, \cite{Zhang2015}). Meanwhile, \cite{Norris2011} find evidence that UCDs are a ``mixed bag'' of both giant GCs and stripped nuclei based on their analysis of UCDs discovered near the elliptical galaxy NGC3923 and S0 galaxy NGC4546. \cite{Seth2014} find a supermassive black hole at the center of a UCD near M60, a massive elliptical galaxy. 
+ 
+ \subsection{Introduction to cEs}
+cEs, the intermediate-sized CSSs of the three previously mentioned have radii ranging typically from $\sim$100--600 pc (again see Figure 11 in \cite{Norris2014}). They are typically thought to be either the result of a tidal stripping event, as is the case for the prototypical cE, M32 (Choi, Guhathakurta \& Johnson 2002, Graham 2002), or as a part of the low mass extension to the elliptical galaxy population. The evidence for tidal stripping includes finding tidal streams near cEs (Smith Castelli 2008, Chilingarian 2009) and one cE, studied in Kormendy 1997 that is believed to host a central massive black hole. (Threshed spiral scenario: Davidge, Beck \& McGregor 2008). On the other hand, Kormendy \& Bender 2012 argue that cEs can be the extension of normal elliptical galaxies, based on 
+
+\subsection{Introduction to dEs and dE,Ns}
+dEs and their nucleated counterparts, dE,Ns, are the largest of the CSSs mentioned with radii ranging from $\sim$600-800 pc (again see Figure 11 in \cite{Norris2014}). Similarly to cEs, dEs and dE,Ns are though to be tidally stripped remnants (Crnojevic 2014 - dEs in M31 show signs of tidal stripping) or the low mass extension to elliptical galaxies (Steve Crawfords work on high-z LCBDs). They could also be the remnants of LCBDs that have been ram-pressure stripped as they entered the cluster environment and subsequently quenched. There is some evidence that dE,Ns are the progenitors of UCDs (\cite{Pfeffer2013}, \cite{Zhang2015}, \cite{Liu2015}).
+
+\subsection{Environments of UCDs}
+UCDs have been primarily found in clusters, such as Coma (\cite{Price2009}, \cite{Madrid2010}), Fornax (\cite{Hilker1999}, \cite{Drinkwater2000}), Virgo (\cite{Hasegan2005}, \cite{Jones2006}), Centaurus (\cite{Mieske2009}), and Hydra I (\cite{Wehner2007}, \cite{Misgeld2008}). Fewer UCDs have been found in groups: \cite{Evstigneeva2007} find one definite and two candidate UCDs in the Dorado group as well as two candidates in the NGC1400 group. Addititonally, \cite{Hau2009} find a UCD near the Sombrero galaxy. 
+
+\subsection{Environments of cEs}
+cEs suffer the same issue: they are mainly found in clusters (\cite{Chilingarian2007}, \cite{SmithCastelli2012}, \cite{Price2009}) and groups (Chilingarian \& Bergond 2010, \cite{Huxor2011}), but recently more have been found in an isolated environment. \cite{Huxor2013}, \cite{Paudel2014}. There is also recent work by Chilingarian 2015 that finds more isolated 
+
+\subsection{Environments of dEs}
+dEs have also primarily been found in groups -- Crnojevic et al. 2014 - dEs in M31, Penny 2014) and clusters (\cite{SmithCastelli2012}, Koo 1994, Guzman 1996, Michielson 2008, Steve Crawford's papers). 
+
+
+\subsection{How environments impact formation scenarios}
+Thus, there's been no ubiquitous sample of CSSs that allow us to analyze the formation as a function of all environments. These studies mostly focus on selecting targets in the group/cluster environments, since this route is more convenient. Only recently have CSSs been found in the field environment (\cite{Huxor2013}, \cite{Chilingarian2015}), which highlights the need for a statistical census of CSSs that spans the group to cluster to field environments. 
+
+\noindent Our goal is to create a complete and volume-limited sample of compact galaxies across all environments so that we may study their evolutionary sequences. For this, we derive our sample from the RESOLVE survey, as described in (\autoref{resolve}). We also use the objects in the Archive of Intermediate Mass Stellar Systems (AIMSS) for comparisons to our sample (\autoref{aimss}). We describe our sample selection process in \autoref{samples} and lastly, describe our spectroscopic data collection and analysis in \autoref{spec}.
+
+
+\noindent * History of compact galaxy discoveries \\
+* AIMSS survey progress \\
+* Include why using the RESOLVE survey for this project and its advantages \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Samples}
+
+\subsection{The RESOLVE survey}
+\label{resolve}
+
+\noindent We use the RESOLVE survey (Kannpann \& Wei 2008, Kannappan et al., in prep) as the parent sample for our census of CCGs. RESOLVE is ideal because it is an unusually complete and volume-limited survey, which allows us to find CCGs at all evolutionary stages. RESOLVE falls within the SDSS footprint, and uses its redshift survey along with additional redshifts from archival sources (the Updated Zwicky Catalog \cite{Falco1999}, HyperLeda \cite{Paturel2003}, 6dF \cite{Jones2009}, 2dF \cite{Colless2001}, GAMA \cite{Driver2011}, and ALFALFA \cite{Haynes2011}) to build up its membership. These additional redshifts makes RESOLVE complete to M$_{r,petro} = -17.23$, which corresponds to m$_{r,petro} = 17.77$ at its outer cz limit, 7000 km s$^{-1}$.
+
+The survey is designed to span  two individual semesters: A for the spring sky and B for the fall. RESOLVE-A spans $\sim38,400$ Mpc$^3$ and occupies the region 131.25\textdegree $<$ RA $<$ 236.25\textdegree, 0\textdegree $<$ Dec $<$ 5\textdegree, and 4500 km s$^{-1} <$ cz $< 7000$ km s$^{-1}$, while RESOLVE-B spans $\sim13,7000 $ Mpc$^3$ and occupies the region 330\textdegree $<$ RA $<$ 45\textdegree, -1.25\textdegree $<$ Dec $<$ 1.255\textdegree, and 4500 km s$^{-1} <$ cz $< 7000$ km s$^{-1}$. 
+
+RESOLVE is advantageous to this study because it offers excellent environment information, allowing us to search for CCGs in all environments including groups, clusters, walls, and filaments \cite{Moffett2015}. The RESOLVE survey also overlaps with a variety of photometric surveys, including GALEX NUV, SDSS $ugriz$, and UKIDSS $YHK$ and 2MASS $JHK$, and has HI data from ALFALFA and its own pointed observations with the Greenbank Telescope and Arecibo. \cite{Eckert2015} describes RESOVLE's custom reprocessing for these photometry. 
+
+These limits mean that RESOLVE is complete down to stellar masses M$_{\star} \sim 10^{8.8}$ M$_{\odot}$ in the A semester and M$_{\star} \sim 10^{9.2}$ M$_{\odot}$ in the B semester. This allows RESOLVE to reach down to CSSs at about the
+
+An important caveat to RESOLVE's completeness is that the survey is most likely to be missing the objects this study is focused on, cEs. This is because these objects can often be mistaken for stars in redshift surveys using tools such as SExtractor's \texttt{class\_star} parameter. We are planning a follow-up with more efforts to improve completion based on photo-z analysis. 
+
+\subsection{The AIMSS catalog}
+\label{aimss}
+
+\noindent We use the Archive of Intermediate Mass Stellar Systems (AIMSS) catalog as a reference sample for our CCGs.  AIMSS is a Hubble Space Telescope archival survey of GCs, UCDs, and cEs found by searching the field of view of WFCP2, ACS, and WFC3 imaging of larger galaxies at distances $\sim 7 - 200$ Mpc. AIMSS also includes literature data of other compact objects, namely (nucleated) dwarf ellipticals, dwarf spheroidals, dwarf S0s, young massive clusters, and massive elliptical galaxies. AIMSS compiles the stellar mass, effective radius, and velocity dispersions, among other quantities, for each of its objects. Thus, though not a statistically defined sample, AIMSS provides a useful reference catalog to which we can calibrate and compare our CCGs.
+
+\subsection{Sample selection}
+\label{samples}
+
+%* Discuss here why we want to choose objects with core radius less than 800pc
+%* FIGURE: from AIMSS showing where compact stellar systems lie
+
+\noindent We use the AIMSS sample to select a maximum radius for our CCGs: 800 pc. This upper limit ensures that we are selecting the most compact galaxies in RESOLVE, but also lets us select a range of CSSs, including cEs and dEs. RESOLVE's lower stellar mass limit (quote, and include in RESOLVE section above) restricts us from reaching down to UCD masses.
+
+We use Galfit (\cite{Peng2002}) to deconvolve the seeing PSF, and to perform one and two component fits on images of the galaxies in RESOLVE. Deconvolution is important as the smallest galaxies in RESOLVE are most effected by seeing, and accurate radii measurements are crucial for our science. High imaging resolution for the galaxies in RESOLVE is necessary to resolve compact cores down to cE-like radii. Thus, for RESOLVE-A, we use publicly-available KiDS $r$ band data, which offers $< \sim0.7''$ seeing resolution corresponding to $< \sim300$pc at RESOLVE distances. For RESOLVE-B, we use publicly-available $Y$ band data from the UKIDSS Large Area Survey, which offers $\sim 0.8-1.0''$ seeing resolution, or $\sim350-450$ pc at RESOLVE distances. (Note: CFHT for the fall is much better at $\sim0.5-0.6''$ seeing!)
+
+*here expand on the sersic vs king profiles when complete
+
+With the one and two component fits from Galfit in hand, we compare the reduced chi-square values for each fit and determine where the two component fit provides a significant improvement to the reduced chi-square of the one component fit (typically is $>0.2$ lower for the 2 comp but will re-assess with higher-res imaging). With each galaxy now having either a one or two component fit, we select objects that have a one component radius $<800$ pc  or have a two component core radius $<800$ pc. The core will be the smaller of the two components fit by Galfit. 
+
+Our sample is thus comprised of XX CCGs without envelopes (XX from RESOLVE-A, and XX from RESOLVE-B and XX CCGs with envelopes (XX from RESOLVE-A and XX from RESOLVE-B). Figure 1 shows their distribution in stellar mass and R$_{\rm eff}$ compared to other RESOLVE galaxies and the AIMSS CSSs. 
+
+
+%* Imaging data from UKIDSS or CFHT for RESOLVE - B and potentially Subaru or KiDS for RESOLVE - A \\ 
+%* Galfit parameters: sersic vs king profiles \\
+%* Deciding if a two component fit is better than a one component fit 
+
+\section{Data and Methods}
+
+\subsection{Environmental Metrics}
+RESOLVE is advantageous to this study because it offers excellent environment information, allowing us to search for CCGs in all environments including groups, clusters, walls, and filaments \cite{Moffett2015}. 
+
+\subsection{Photometry}
+The RESOLVE survey also overlaps with a variety of photometric surveys, including GALEX NUV, SDSS $ugriz$, and UKIDSS $YHK$ and 2MASS $JHK$, and has HI data from ALFALFA and its own pointed observations with the Greenbank Telescope and Arecibo. \cite{Eckert2015} describes RESOVLE's custom reprocessing for these photometry. 
+
+\subsection{Kinematics}
+\label{spec}
+
+\noindent The RESOLVE survey gets the bulk of its spectroscopic data from the SOAR Telescope. We use the Goodman Spectrograph, designed and built by UNC, along with our custom-built image slicer with 3 1'' slits to observe galaxies in both a broad setup and either an emission- or absorption-line kinematic setup. From this absorption-line setup, we are able to derive velocity dispersions. We use the supremely-efficient 2100 l/mm VPH grating and cover a wavelength range 4858-5503\AA, which includes stellar absorption lines such as H$\beta$, the magnesium triplet, and Fe5270/5335. To achieve S/N $\sim$ 25 per \AA, we bin each central spectrum to R$_{\rm eff}$.
+
+A subset of the smallest galaxies in RESOLVE are observed with the Gemini-South IFU for their kinematics instead of SOAR. For this absorption-line setup, we use the B1200 grating in 1-slit mode to cover a spatial region of 3"$\times$5" and the spectral range 4200-5600\AA. The B1200 grating offers 0.9\AA resolution when binned spectrally by 2. We calculate our exposure times such that we achieve S/N $\sim$ 25 per \AA\,  after binning by 2 in the spectral direction and summing the fibers out to R$_{\rm eff}$.
+
+The spectral reduction proceeds as follows. Using the standard IRAF Gemini-GMOS data packages, bias and overscan subtraction, spatial trimming, flat fielding and fiber identification are performed. We next use the GMOS package gemCRspec, a wrapper for \textsc{LA\_COSMIC}, to clean cosmic rays from each science exposure. We then correct the science frames for quantum efficiency differences between CCDs. Wavelength transformation, sky subtraction, and flux calibration are subsequently performed, and lastly, data cubes are made and summed. We then stack the individal fiber spectra out to R$_{\rm eff}$ to create a 1D spectrum for each galaxy. More information on the data reduction for the Gemini GMOS IFU can be found in the Appendix A.
+
+We then derive the velocity dispersion ($\sigma$) from the both the SOAR and Gemini spectra using {\sc pPXF}, the penalized pixel fitting code from Cappellari \& Emsellem (2004). This code fits many model spectra (cite Maraston) to the observed input spectrum.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+
+\subsection{Colors and Star formation rates}
+\noindent 
+* FIGURE: FSMGR vs Mbary/stars for RESOLVE, CCGs, and AIMSS \\
+* FIGURE: SFR vs. Mbary/stars for RESOLVE, CCGs, and AIMSS \\
+
+Figure \#A shows the u-r colors of our CCG sample plotted against M$_{\rm bary}$, compared to the RESOLVE sample as a whole. An unsual finding is that XX CCGs live on the blue sequence, a previsouly rare color for CSSs. REF and REF have previously found UCDs in the blue cloud but most cEs and dEs are typically thought of as being "red and dead".
+
+Figure \#B shows FSMGR vs. M$_{\rm bary}$ for the same objects. As with the colors, we find that many (XX\%) of CCGs are forming stars at a rapid rate ( XX per Gyr). This again goes against the common thought that CSSs are "red and dead".
+
+Here discuss more the envelope vs non-enveloped CCGs and how their popultions may differ.
+
+\subsection{Environments}
+\noindent 
+ *FIGURE: nearest neighbor and group halo mass\\
+* FIGURE: group n vs group halo mass  \\
+* Tie in Huxor's cE, idea of ejection from groups, how environment would effect CCGs
+
+\subsection{Gas Content}
+\noindent * look into g/s ratios \\
+* reference Dave and Katie's work here
+
+\subsection{Metallicities}
+\noindent * reference AIMSS III paper on what metallicities could tell us about formation scenarios
+
+\subsection{Kinematics}
+\noindent * why kinematics are important for formation scenario discernment\\
+* FIGURE: ppxf fits for spectroscopic data to derive velocity dispersions \\
+* FIGURE: velocity dispersion vs. stellar mass
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{CCG formation and evolution} %kind of like a discussion section
+
+\subsection{Gadget-2 simulations of cE formation}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\acknowledgments{
+  Acknowledgments. 
+}
+
+\bibliographystyle{apj}
+\bibliography{newbib.bib}
+
+\section{Appendix}
+
+
+
+\end{document}
+              
