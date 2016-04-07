@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.23)  4 MAR 2016 15:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.23)  31 MAR 2016 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -723,39 +723,36 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 82.
 
- []
-
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 87.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 93.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [2]
-Underfull \hbox (badness 10000) in paragraph at lines 157--160
+) [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
 
  []
 
-[3] (./paperdraft.bbl) [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+(./paperdraft.bbl [4]) [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
  (./paperdraft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
 Package rerunfilecheck Info: File `paperdraft.out' has not changed.
-(rerunfilecheck)             Checksum: FE5F00950C14E868B9D65A0FAE61F8CE;2092.
+(rerunfilecheck)             Checksum: FD94A3D59DA14A27B06A2DBCA22E7FE0;2096.
  ) 
 Here is how much of TeX's memory you used:
- 9518 strings out of 494985
- 132537 string characters out of 6180356
- 272800 words of memory out of 5000000
- 12491 multiletter control sequences out of 15000+600000
+ 9542 strings out of 494985
+ 132883 string characters out of 6180356
+ 242623 words of memory out of 5000000
+ 12504 multiletter control sequences out of 15000+600000
  73231 words of font info for 112 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 35i,6n,28p,1548b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,6n,28p,1536b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
@@ -763,10 +760,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/sym
 bol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paperdraft.pdf (4 pages, 97267 bytes).
+Output written on paperdraft.pdf (5 pages, 101977 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 336 compressed objects within 4 object streams
- 78 named destinations out of 1000 (max. 500000)
+ 374 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 89 named destinations out of 1000 (max. 500000)
  249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
