@@ -83,7 +83,7 @@ Thus, there's been no ubiquitous sample of CSSs that allow us to analyze the for
 
 RESOLVE's exceptional completeness is due to our use of multiple redshift surveys to recover galaxies that were missed in SDSS due to fiber collisions and several issues with their photometry pipeline. These issues include the oversubtraction of sky around galaxies that causes their flux to be underestimated and thereby not meet the magnitude cut for spectroscopic follow-up; the ``shredding'' of galaxies in which the pipeline breaks up a single galaxy into individual pieces, making no one piece meet the magnitude cut; and the intentional exclusion of low surface brightness galaxies ($\mu_{50} < 24.5$ mag arcsec$^{-2}$), even if they meet the magnitude cut. We have used SDSS along with additional redshifts from archival sources (the Updated Zwicky Catalog \citep{Falco1999}, HyperLeda \citep{Paturel2003}, 6dF \citep{Jones2009}, 2dF \citep{Colless2001}, GAMA \citep{Driver2011}, and ALFALFA \citep{Haynes2011}) to counteract these issues and build up the survey's membership.
 
-With its improved redshift recovery, RESOLVE is complete down to absolute $r$-band magnitudes of $-17.33$ and $-17.0$ for the A and B semesters, respectively. We can convert these absolute magnitude limits into stellar mass limits: M$_{\star} \sim 10^{8.9}$ \Msun for the A semester and M$_{\star} \sim 10^{8.7}$ \Msun in the B semester (see Figure 7 in \citet{Eckert2015B}). In Figure 1, we plot the stellar masses against the deconvolved \Reff (see \autoref{deconv}) and see that these limits allow us to reach down to CSSs with sizes similar to cEs. We are not able to recover UCD-like objects, but this should not matter since we are studying CSSs as a whole in order to investiage evolutionary sequences.
+With its improved redshift recovery, RESOLVE is complete down to absolute $r$-band magnitudes of $-17.33$ and $-17.0$ for the A and B semesters, respectively. We can convert these absolute magnitude limits into stellar mass limits: M$_{\star} \sim 10^{8.9}$ \Msun for the A semester and M$_{\star} \sim 10^{8.7}$ \Msun in the B semester (see Figure 7 in \citet{Eckert2015B}). In Figure 1, we plot the stellar masses against the deconvolved \Reff\ (see \autoref{deconv}) and see that these limits allow us to reach down to CSSs with sizes similar to cEs. We are not able to recover UCD-like objects, but this should not matter since we are studying CSSs as a whole in order to investiage evolutionary sequences.
 
 An important caveat to RESOLVE's completeness is that the survey is most likely to be missing the objects this study is focused on, cEs. This is because these objects can often be mistaken for stars in redshift surveys using tools such as the \texttt{class\_star} parameter in Source Extractor \citep{Bertin1996}, which uses the flux and ellipticity of an object to determine the probability of it being a star or a galaxy. There are current ongoing efforts to use photo-z estimates to recover these objects.
 
@@ -97,13 +97,20 @@ An important caveat to RESOLVE's completeness is that the survey is most likely 
 \subsubsection{Deconvolution of RESOLVE galaxies}
 \label{deconv}
 
-\noindent In order to get accurate \Reff measurements for all galaxies in the RESOLVE sample, we use Galfit \citep{Peng2002} to deconvolve the seeing point spread function (PSF) and perform one and two component fits on high-resolution imaging. Deconvolution is important as the smallest galaxies in RESOLVE are most effected by seeing, and accurate radii measurements are crucial for our science. High imaging resolution for the galaxies in RESOLVE is necessary to resolve compact cores down to cE-like radii. Thus, for both RESOLVE-A and RESOLVE-B, we use publicly-available UKIDSS Large Area Survey \citep{Lawrence2007} $Y$-band data, which offers $\sim0.8''$ seeing resolution corresponding to $\sim350$pc at RESOLVE distances.
+\noindent We begin our analysis by deriving seeing-corrected \Reff\ measurements for all galaxies in the RESOLVE sample. For this task we employ \textsc{Galfit} \citep{Peng2002} to deconvolve the seeing point spread function (PSF) and to perform one and two component fits on each galaxy. Deconvolution is especially important since the smallest galaxies in RESOLVE are most effected by seeing, and accurate radii measurements are crucial for the study of these objects. 
 
-The first step in this process is to create PSFs for each image. My process is as follows:
+\textsc{Galfit} needs the following input files to function correctly: an initial input file, an image of the galaxy, a PSF image, an image mask, and a constraint file.  We obtain/construct these items as follows:
 
+\begin{description}
+
+\item[The initial input file]{The initial input file tells \textsc{Galfit} where to find the image, PSF, mask, and constraint, and also holds the initial guesses for our fit parameters. These initial parameters can just be rough guesses, but for our purposes, we use the previously derived photometric data for RESOLVE galaxies as our initial guesses (see \autoref{phot} for more details). For the one component fits, we set up our input file to have a section for measuring the value of the sky background, and another section for fitting a S\'ersic profile to galaxy. The two component fits with have three sections -- the sky and S\'ersic as in the one component fits, plus a second S\'ersic fit. }
+
+\item[Imaging data]{We use publicly-available high resolution $Y$-band imaging from the UKIDSS Large Area Survey \citep{Lawrence2007}. This data set was chosen because it covers both RESOLVE-A and RESOLVE-B and offers $\sim0.8''$ seeing resolution corresponding to $\sim350$pc at RESOLVE distances in turn letting us span down to the sizes of cE-like galaxies. The $Y$ band is advantageous too, since it probes the underlying stellar population and will not skew our measurements to larger radii if the galaxy is currently experiencing a starburst. We download $\sim10'\times10'$ images of each galaxy from the WFCAM Science Archive\footnote{\url{was.roe.ac.uk//}}}. While \textsc{Galfit} does not require images this large to operate normally, we choose this size so that there will be more stars in the field of view which is useful for constructing a PSF. There are  only XX galaxies in RESOLVE that do not have UKIDSS imaging and thus are excluded from our analysis. Visual inspection of these galaxies indicate that they would most likely not be classified as CCGs anyways.
+
+\item[The PSF image]{We build our PSF image via the following steps.
 \begin{enumerate}
 
-\item We begin by running Source Extractor on the image to identify every object and get estimates for each object's flux, elongation, ellipticity, radius, and \texttt{class\_star}.
+\item We begin by running Source Extractor on the image to identify every object in the frame, including stars, galaxies, and even sometimes hot pixels. Source Extractor outputs a .txt file that has estimates of each object's flux, elongation, ellipticity, radius, and \texttt{class\_star}.
 
 \item With this information, we select stars to use for building our PSF. The limiting parameters are (1) that the flux must be between $5,000-100,000$ counts to ensure no extremely faint or saturated stars are included, (2) that the ellipticity be lt 0.2 to ensure we are selecting round objects, (3) that the effective radius of the star be greater than 1 pixel to avoid selecting hot pixels, and (4) that \texttt{class\_star} is greater than 0.6 to ensure the objects we're picking are most likely stars. We also make sure the stars are not near the image edges, since there can sometimes be image artifacts there. Lastly, we make sure to not include the galaxy we are going to fit, since the cE-like galaxies can appear to be stars.
 
@@ -121,12 +128,33 @@ The first step in this process is to create PSFs for each image. My process is a
 
 \end{enumerate}
 
-\noindent Once the PSF is complete, we fit a crude 2D Gaussian to it to determine a rough estimate seeing FWHM. The average seeing FWHM is $\sim 0.9''$, only slightly worse than the $\sim 0.8''$ seeing expected for UKIDSS imaging. 
+\noindent Our last step is to fit a 2D Gaussian to the PSF to determine a rough estimate seeing full width half max (FWHM), as a sanity check. We find that the average FWHM for all PSFs is $\sim 0.9''$, only slightly worse than the $\sim 0.8''$ seeing expected for UKIDSS imaging. \textsc{Galfit} uses this PSF image to deconvolve the galaxy light profile from the seeing, thereby removing the effects of atmospheric scattering of the galaxy light as the data was taken.}
 
-The next steps involve the creation of items necessary for Galfit to run properly. This includes an image mask, a constraint file, and starting guesses for the parameters being fit. The image mask is made by running each image through Source Extractor and using its output list of sources and their sizes to create a binary image of the objects to mask. The 
+\item[The mask image]{The first step is to create a mask image that has the same dimensions as our input image with each pixel value as zero. We again use Source Extractor to compile a list of all the objects in the input image, and then use this list to replace the pixel values in our mask with one. We replace the areas of the mask that have detected sources with ones, thus creating a binary image. \textsc{Galfit} uses the mask image to }
+
+\item[The constant file]{The constraint file hosts the limits we are willing to accept for our fits. We fit on the following galaxy parameters: x \& y position in the image, integrated magnitude, \Reff, S\'ersic n, axial ratio (b/a), and position angle. The constraints in place for these variables are listed in \autoref{constrtable}.}
+
+\end{description}
+ 
+\begin{table}[htdp]
+\begin{center}
+\begin{tabular}{cc} \hline
+parameter & constaint  \\ \hline
+x \& y position & $\pm5$ pixels from input value \\
+integrated magnitude & 0 -- 40 \\ 
+\Reff\ & 0.2 -- 750 pixels \\ 
+S\'ersic n & 0.1 -- 8 \\ 
+axial ratio & 0 -- 1 \\
+position angle & -360 -- 360 \\ \hline
+
+\end{tabular}
+\end{center}
+\caption{Summary of the constraints imposed on our \textsc{Galfit} models.}
+\label{constrtable}
+\end{table}%
 
 
-With the one and two component fits from Galfit in hand, we compare the reduced chi-square values for each fit and determine where the two component fit provides a significant improvement to the reduced chi-square of the one component fit. With each galaxy now having either a one or two component fit, we select objects that have a one component radius $<800$ pc  or have a two component core radius $<800$ pc. The core will be the smaller of the two components fit by Galfit. 
+With the one and two component fits from \textsc{Galfit} in hand, we compare the reduced chi-square values for each fit and determine where the two component fit provides a significant improvement to the reduced chi-square of the one component fit. With each galaxy now having either a one or two component fit, we select objects that have a one component radius $<800$ pc  or have a two component core radius $<800$ pc. The core will be the smaller of the two components fit by \textsc{Galfit}. 
 
 \subsubsection{Selection of CCGs}
 \label{ccgsel}
@@ -187,13 +215,6 @@ Here discuss more the envelope vs non-enveloped CCGs and how their popultions ma
 * FIGURE: group n vs group halo mass  \\
 * Tie in Huxor's cE, idea of ejection from groups, how environment would effect CCGs
 
-\subsection{Gas Content}
-\noindent * look into g/s ratios \\
-* reference Dave and Katie's work here
-
-\subsection{Metallicities}
-\noindent * reference AIMSS III paper on what metallicities could tell us about formation scenarios
-
 \subsection{Kinematics}
 \noindent * why kinematics are important for formation scenario discernment\\
 * FIGURE: ppxf fits for spectroscopic data to derive velocity dispersions \\
@@ -210,6 +231,14 @@ Here discuss more the envelope vs non-enveloped CCGs and how their popultions ma
 \section{Summary}
 
 
+
+\section{Future Work}
+%\subsection{Gas Content}
+%\noindent * look into g/s ratios \\
+%* reference Dave and Katie's work here
+
+%\subsection{Metallicities}
+%\noindent * reference AIMSS III paper on what metallicities could tell us about formation scenarios
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \acknowledgments{
