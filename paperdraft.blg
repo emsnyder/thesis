@@ -5,44 +5,44 @@ The style file: apj.bst
 Database file #1: paperdraftNotes.bib
 Database file #2: library.bib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 45 entries,
+You've used 52 entries,
             3085 wiz_defined-function locations,
-            1010 strings with 22081 characters,
-and the built_in function-call counts, 26758 in all, are:
-= -- 1866
-> -- 2697
-< -- 9
-+ -- 900
-- -- 967
-* -- 2640
-:= -- 5259
-add.period$ -- 45
-call.type$ -- 45
-change.case$ -- 314
-chr.to.int$ -- 45
-cite$ -- 45
-duplicate$ -- 850
-empty$ -- 1265
-format.name$ -- 1017
-if$ -- 5092
+            1061 strings with 28407 characters,
+and the built_in function-call counts, 32818 in all, are:
+= -- 2127
+> -- 3583
+< -- 12
++ -- 1192
+- -- 1266
+* -- 3356
+:= -- 6532
+add.period$ -- 52
+call.type$ -- 52
+change.case$ -- 351
+chr.to.int$ -- 52
+cite$ -- 52
+duplicate$ -- 981
+empty$ -- 1461
+format.name$ -- 1329
+if$ -- 6171
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 44
-newline$ -- 139
-num.names$ -- 180
-pop$ -- 349
+missing$ -- 51
+newline$ -- 160
+num.names$ -- 208
+pop$ -- 390
 preamble$ -- 1
-purify$ -- 314
+purify$ -- 351
 quote$ -- 0
-skip$ -- 696
+skip$ -- 805
 stack$ -- 0
-substring$ -- 959
+substring$ -- 1106
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 405
+type$ -- 468
 warning$ -- 0
-while$ -- 162
+while$ -- 186
 width$ -- 0
-write$ -- 452
+write$ -- 522
