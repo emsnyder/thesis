@@ -159,6 +159,14 @@ For both the one and two component fits, \textsc{Galfit} outputs a text file wit
 
 \subsubsection{Selection of CCGs}
 
+\begin{figure*}[t]
+\begin{center}
+\includegraphics{CCGpics.eps}
+\caption{default}
+\label{fig:pics}
+\end{center}
+\end{figure*}
+
 Now that we have seeing-deconvolved \Reff\ values for the entire RESOLVE sample, we begin our search for compact core galaxies. We use the AIMSS sample to select a maximum cutoff core-only radius for CCGs at 800 pc. This upper limit ensures that we are selecting the most compact galaxies in RESOLVE, but also lets us select a range of CSSs, including cEs and dEs. RESOLVE's lower stellar mass limit of  restricts us from reaching down to UCD masses.
 
 We start our search for CCGs by using the one component fit from the above analysis and select galaxies with \Reff\ values $<1000$ pc. Since we are looking for galaxies with compact cores, going up to \Reff\ $\sim 1000$ pc allows us to select objects with cores that are dominating the light and therefore may have a smaller core \Reff\ in a two component fit. We also limit the  $\chi^2/\nu$ to be $<1.3$, since values above this represent galaxies with large residuals left over, which are spirals or irregulars that we would not consider ``cored". After this selection, we are left with 124 galaxies in the CCG candidate sample.
@@ -219,6 +227,14 @@ The spectral reduction proceeds as follows. Using the standard IRAF Gemini-GMOS 
 
 \noindent We then derive $\sigma$ from the both the SOAR and Gemini spectra using {\sc pPXF}, the penalized pixel fitting code from \citet{Cappellari2004}. This code fits a combination of high-resolution (FWHM $= 0.55$ \AA) ELODIE-based model spectra from \citet{Maraston2011} to the observed input spectrum, and determines a best fit solution for $\sigma$. A caveat to these fits is that they are not corrected for any stellar rotation, which will make absorption lines wider and thus skews the derived $\sigma$ values toward higher values depending on the amount of rotation in each galaxy. Future work will include implementing a stellar rotation subtraction routine for these fits, but preliminary testing by binning the spectra to $1''$ instead of to \Reff\ shows little change between the derived $\sigma$ values.
 
+\begin{figure}[t]
+\begin{center}
+\includegraphics[scale=0.4]{rf0078ppxffit.eps}
+\caption{default}
+\label{fig:envplot}
+\end{center}
+\end{figure}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
@@ -256,6 +272,14 @@ The right side of \autoref{fig:envplot} shows FSMGR vs. M$_{\rm bary}$ for the s
 \noindent * why kinematics are important for formation scenario discernment\\
 * FIGURE: ppxf fits for spectroscopic data to derive velocity dispersions \\
 * FIGURE: velocity dispersion vs. stellar mass
+
+\begin{figure*}[t!]
+\begin{center}
+\includegraphics{faber-jackson_resolvesigmas.eps}
+\caption{default}
+\label{flg:fsmgr}
+\end{center}
+\end{figure*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
