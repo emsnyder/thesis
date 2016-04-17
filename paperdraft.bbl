@@ -1,6 +1,33 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
+\bibitem[{Aihara {et~al.}(2011)Aihara, {Allende Prieto}, An, Anderson, Aubourg,
+  Balbinot, Beers, Berlind, Bickerton, Bizyaev, Blanton, Bochanski, Bolton,
+  Bovy, Brandt, Brinkmann, Brown, Brownstein, Busca, Campbell, Carr, Chen,
+  Chiappini, Comparat, Connolly, Cortes, Croft, Cuesta, da~Costa, Davenport,
+  Dawson, Dhital, Ealet, Ebelke, Edmondson, Eisenstein, Escoffier, Esposito,
+  Evans, Fan, {Femen{\'{i}}a Castell{\'{a}}}, Font-Ribera, Frinchaboy, Ge,
+  Gillespie, Gilmore, {Gonz{\'{a}}lez Hern{\'{a}}ndez}, Gott, Gould, Grebel,
+  Gunn, Hamilton, Harding, Harris, Hawley, Hearty, Ho, Hogg, Holtzman,
+  Honscheid, Inada, Ivans, Jiang, Johnson, Jordan, Jordan, Kazin, Kirkby,
+  Klaene, Knapp, Kneib, Kochanek, Koesterke, Kollmeier, Kron, Lampeitl, Lang,
+  {Le Goff}, Lee, Lin, Long, Loomis, Lucatello, Lundgren, Lupton, Ma,
+  MacDonald, Mahadevan, Maia, Makler, Malanushenko, Malanushenko, Mandelbaum,
+  Maraston, Margala, Masters, McBride, McGehee, McGreer, M{\'{e}}nard,
+  Miralda-Escud{\'{e}}, Morrison, Mullally, Muna, Munn, Murayama, Myers,
+  Naugle, {Fausti Neto}, Nguyen, Nichol, O'Connell, Ogando, Olmstead, Oravetz,
+  Padmanabhan, Palanque-Delabrouille, Pan, Pandey, P{\^{a}}ris, Percival,
+  Petitjean, Pfaffenberger, Pforr, Phleps, Pichon, Pieri, Prada, Price-Whelan,
+  Raddick, Ramos, Reyl{\'{e}}, Rich, Richards, Rix, Robin, Rocha-Pinto,
+  Rockosi, Roe, Rollinde, Ross, Ross, Rossetto, S{\'{a}}nchez, Sayres,
+  Schlegel, Schlesinger, Schmidt, Schneider, Sheldon, Shu, Simmerer, Simmons,
+  Sivarani, Snedden, Sobeck, Steinmetz, Strauss, Szalay, Tanaka, Thakar,
+  Thomas, Tinker, Tofflemire, Tojeiro, Tremonti, Vandenberg, {Vargas
+  Maga{\~{n}}a}, Verde, Vogt, Wake, Wang, Weaver, Weinberg, White, White,
+  Yanny, Yasuda, Yeche, \& Zehavi}]{Aihara2011}
+Aihara, H., {Allende Prieto}, C., An, D., {et~al.} 2011, The Astrophysical
+  Journal Supplement Series, 193, 29
+
 \bibitem[{Bekki {et~al.}(2001)Bekki, Couch, \& Drinkwater}]{Bekki2001}
 Bekki, K., Couch, W.~J., \& Drinkwater, M.~J. 2001, The Astrophysical Journal,
   552, L105
@@ -9,9 +36,19 @@ Bekki, K., Couch, W.~J., \& Drinkwater, M.~J. 2001, The Astrophysical Journal,
 Bekki, K., \& Freeman, K.~C. 2003, Monthly Notices of the Royal Astronomical
   Society, 346, L11
 
+\bibitem[{Berlind {et~al.}(2006)Berlind, Frieman, Weinberg, Blanton, Warren,
+  Abazajian, Scranton, Hogg, Scoccimarro, Bahcall, Brinkmann, {Gott III},
+  Kleinman, Krzesinski, Lee, Miller, Nitta, Schneider, Tucker, \&
+  Zehavi}]{Berlind2006}
+Berlind, A.~A., Frieman, J., Weinberg, D.~H., {et~al.} 2006, The Astrophysical
+  Journal Supplement Series, 167, 1
+
 \bibitem[{Bertin \& Arnouts(1996)}]{Bertin1996}
 Bertin, E., \& Arnouts, S. 1996, Astronomy and Astrophysics Supplement Series,
   117, 393
+
+\bibitem[{Blanton \& Berlind(2007)}]{Blanton2007}
+Blanton, M.~R., \& Berlind, A.~A. 2007, The Astrophysical Journal, 664, 791
 
 \bibitem[{Cappellari \& Emsellem(2004)}]{Cappellari2004}
 Cappellari, M., \& Emsellem, E. 2004, Publications of the Astronomical Society
@@ -20,10 +57,10 @@ Cappellari, M., \& Emsellem, E. 2004, Publications of the Astronomical Society
 \bibitem[{Chilingarian \& Zolotukhin(2015)}]{Chilingarian2015}
 Chilingarian, I., \& Zolotukhin, I. 2015, Science (New York, N.Y.), 348, 418
 
-\bibitem[{Chilingarian {et~al.}(2007)Chilingarian, Sil’chenko, Afanasiev, \&
+\bibitem[{Chilingarian {et~al.}(2007)Chilingarian, Sil'chenko, Afanasiev, \&
   Prugniel}]{Chilingarian2007}
-Chilingarian, I.~V., Sil’chenko, O.~K., Afanasiev, V.~L., \& Prugniel, P.
-  2007, Astronomy Letters, 33, 292
+Chilingarian, I.~V., Sil'chenko, O.~K., Afanasiev, V.~L., \& Prugniel, P. 2007,
+  Astronomy Letters, 33, 292
 
 \bibitem[{Colless {et~al.}(2001)Colless, Dalton, Maddox, Sutherland, Norberg,
   Cole, Bland-Hawthorn, Bridges, Cannon, Collins, Couch, Cross, Deeley, {De
@@ -149,6 +186,10 @@ Liu, C., Peng, E.~W., C{\^{o}}t{\'{e}}, P., {et~al.} 2015, The Astrophysical
 Madrid, J.~P., Graham, A.~W., Harris, W.~E., {et~al.} 2010, The Astrophysical
   Journal, 722, 1707
 
+\bibitem[{Maraston \& Str{\"{o}}mb{\"{a}}ck(2011)}]{Maraston2011}
+Maraston, C., \& Str{\"{o}}mb{\"{a}}ck, G. 2011, Monthly Notices of the Royal
+  Astronomical Society, 418, 2785
+
 \bibitem[{Mieske {et~al.}(2002)Mieske, Hilker, \& Infante}]{Mieske2002}
 Mieske, S., Hilker, M., \& Infante, L. 2002, Astronomy and Astrophysics, 383,
   823
@@ -166,6 +207,13 @@ Misgeld, I., Mieske, S., \& Hilker, M. 2008, Astronomy and Astrophysics, 486,
   Hendel, Norris, \& Grogin}]{Moffett2015}
 Moffett, A.~J., Kannappan, S.~J., Berlind, A.~A., {et~al.} 2015, The
   Astrophysical Journal, 812, 89
+
+\bibitem[{Morrissey {et~al.}(2007)Morrissey, Conrow, Barlow, Small, Seibert,
+  Wyder, Budavari, Arnouts, Friedman, Forster, Martin, Neff, Schiminovich,
+  Bianchi, Donas, Heckman, Lee, Madore, Milliard, Rich, Szalay, Welsh, \&
+  Yi}]{Morrissey2007}
+Morrissey, P., Conrow, T., Barlow, T.~A., {et~al.} 2007, The Astrophysical
+  Journal Supplement Series, 173, 682
 
 \bibitem[{Norris \& Kannappan(2011)}]{Norris2011}
 Norris, M.~A., \& Kannappan, S.~J. 2011, Monthly Notices of the Royal
@@ -210,10 +258,22 @@ Price, J., Phillipps, S., Huxor, A., {et~al.} 2009, Monthly Notices of the
   Walsh}]{Seth2014}
 Seth, A.~C., van~den Bosch, R., Mieske, S., {et~al.} 2014, Nature, 513, 398
 
+\bibitem[{Skrutskie {et~al.}(2006)Skrutskie, Cutri, Stiening, Weinberg,
+  Schneider, Carpenter, Beichman, Capps, Chester, Elias, Huchra, Liebert,
+  Lonsdale, Monet, Price, Seitzer, Jarrett, Kirkpatrick, Gizis, Howard, Evans,
+  Fowler, Fullmer, Hurt, Light, Kopan, Marsh, McCallon, Tam, {Van Dyk}, \&
+  Wheelock}]{Skrutskie2006}
+Skrutskie, M.~F., Cutri, R.~M., Stiening, R., {et~al.} 2006, The Astronomical
+  Journal, 131, 1163
+
 \bibitem[{{Smith Castelli} {et~al.}(2012){Smith Castelli}, Cellone, Faifer,
   Bassino, Richtler, Romero, Calder{\'{o}}n, \& Caso}]{SmithCastelli2012}
 {Smith Castelli}, A.~V., Cellone, S.~A., Faifer, F.~R., {et~al.} 2012, Monthly
   Notices of the Royal Astronomical Society, 419, 2472
+
+\bibitem[{van Dokkum(2001)}]{vanDokkum2001}
+van Dokkum, P. 2001, Publications of the Astronomical Society of the Pacific,
+  113, 1420
 
 \bibitem[{Wehner \& Harris(2007)}]{Wehner2007}
 Wehner, E. M.~H., \& Harris, W.~E. 2007, The Astrophysical Journal, 668, L35
