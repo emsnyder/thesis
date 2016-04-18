@@ -1,29 +1,23 @@
 \BOOKMARK [1][-]{section*.1}{ABSTRACT}{section*.2}% 1
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 2
-\BOOKMARK [2][-]{subsection.1.1}{Introduction to UCDs}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.2}{Introduction to cEs}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.3}{Introduction to dEs and dE,Ns}{section.1}% 5
-\BOOKMARK [2][-]{subsection.1.4}{Environments of UCDs}{section.1}% 6
-\BOOKMARK [2][-]{subsection.1.5}{Environments of cEs}{section.1}% 7
-\BOOKMARK [2][-]{subsection.1.6}{Environments of dEs}{section.1}% 8
-\BOOKMARK [2][-]{subsection.1.7}{How environments impact formation scenarios}{section.1}% 9
-\BOOKMARK [1][-]{section.2}{Samples}{}% 10
-\BOOKMARK [2][-]{subsection.2.1}{The RESOLVE survey}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.2}{The AIMSS catalog}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.3}{CCG sample selection}{section.2}% 13
-\BOOKMARK [3][-]{subsubsection.2.3.1}{Deconvolution of RESOLVE galaxies}{subsection.2.3}% 14
-\BOOKMARK [3][-]{subsubsection.2.3.2}{Selection of CCGs}{subsection.2.3}% 15
-\BOOKMARK [1][-]{section.3}{Methods}{}% 16
-\BOOKMARK [2][-]{subsection.3.1}{Photometry: galaxy colors, stellar and baryonic masses, and star formation rates}{section.3}% 17
-\BOOKMARK [2][-]{subsection.3.2}{Environmental Metrics}{section.3}% 18
-\BOOKMARK [2][-]{subsection.3.3}{Kinematics}{section.3}% 19
-\BOOKMARK [3][-]{subsubsection.3.3.1}{SOAR spectroscopy}{subsection.3.3}% 20
-\BOOKMARK [3][-]{subsubsection.3.3.2}{Gemini-South spectroscopy}{subsection.3.3}% 21
-\BOOKMARK [3][-]{subsubsection.3.3.3}{Velocity Dispersion Extraction}{subsection.3.3}% 22
-\BOOKMARK [1][-]{section.4}{Results}{}% 23
-\BOOKMARK [2][-]{subsection.4.1}{Colors and Star formation rates}{section.4}% 24
-\BOOKMARK [2][-]{subsection.4.2}{Environments}{section.4}% 25
-\BOOKMARK [2][-]{subsection.4.3}{Kinematics}{section.4}% 26
-\BOOKMARK [1][-]{section.5}{Summary}{}% 27
-\BOOKMARK [1][-]{section.6}{Future Work}{}% 28
-\BOOKMARK [1][-]{section.7}{Appendix}{}% 29
+\BOOKMARK [1][-]{section.2}{Samples}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{The RESOLVE survey}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{The AIMSS catalog}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{CCG sample selection}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Deconvolution of RESOLVE galaxies}{subsection.2.3}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Selection of CCGs}{subsection.2.3}% 8
+\BOOKMARK [1][-]{section.3}{Methods}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Photometry: galaxy colors, stellar and baryonic masses, and star formation rates}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Environmental Metrics}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Kinematics}{section.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.3.1}{SOAR spectroscopy}{subsection.3.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Gemini-South spectroscopy}{subsection.3.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Velocity Dispersion Extraction}{subsection.3.3}% 15
+\BOOKMARK [1][-]{section.4}{Results}{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{Colors and Star formation rates}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.2}{Environments}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.3}{Kinematics}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Summary}{}% 20
+\BOOKMARK [1][-]{section.6}{Future Work}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Gas Content}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Metallicities}{section.6}% 23

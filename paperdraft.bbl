@@ -54,13 +54,26 @@ Blanton, M.~R., \& Berlind, A.~A. 2007, The Astrophysical Journal, 664, 791
 Cappellari, M., \& Emsellem, E. 2004, Publications of the Astronomical Society
   of the Pacific, 116, 138
 
+\bibitem[{Chilingarian {et~al.}(2009)Chilingarian, Cayatte, Revaz, Dodonov,
+  Durand, Durret, Micol, \& Slezak}]{Chilingarian2009}
+Chilingarian, I., Cayatte, V., Revaz, Y., {et~al.} 2009, Science (New York,
+  N.Y.), 326, 1379
+
 \bibitem[{Chilingarian \& Zolotukhin(2015)}]{Chilingarian2015}
 Chilingarian, I., \& Zolotukhin, I. 2015, Science (New York, N.Y.), 348, 418
+
+\bibitem[{Chilingarian \& Bergond(2010)}]{Chilingarian2010}
+Chilingarian, I.~V., \& Bergond, G. 2010, Monthly Notices of the Royal
+  Astronomical Society: Letters, 405, L11
 
 \bibitem[{Chilingarian {et~al.}(2007)Chilingarian, Sil'chenko, Afanasiev, \&
   Prugniel}]{Chilingarian2007}
 Chilingarian, I.~V., Sil'chenko, O.~K., Afanasiev, V.~L., \& Prugniel, P. 2007,
   Astronomy Letters, 33, 292
+
+\bibitem[{Choi {et~al.}(2002)Choi, Guhathakurta, \& Johnston}]{Choi2002}
+Choi, P.~I., Guhathakurta, P., \& Johnston, K.~V. 2002, The Astronomical
+  Journal, 124, 310
 
 \bibitem[{Colless {et~al.}(2001)Colless, Dalton, Maddox, Sutherland, Norberg,
   Cole, Bland-Hawthorn, Bridges, Cannon, Collins, Couch, Cross, Deeley, {De
@@ -69,6 +82,17 @@ Chilingarian, I.~V., Sil'chenko, O.~K., Afanasiev, V.~L., \& Prugniel, P. 2007,
   Taylor}]{Colless2001}
 Colless, M., Dalton, G., Maddox, S., {et~al.} 2001, Monthly Notices of the
   Royal Astronomical Society, 328, 1039
+
+\bibitem[{Crawford {et~al.}(2016)Crawford, Wirth, Bershady, \&
+  Randriamampandry}]{Crawford2016}
+Crawford, S.~M., Wirth, G.~D., Bershady, M.~A., \& Randriamampandry, S.~M.
+  2016, The Astrophysical Journal, 817, 87
+
+\bibitem[{Crnojevi  {et~al.}(2014)Crnojevi , Ferguson, Irwin, McConnachie,
+  Bernard, Fardal, Ibata, Lewis, Martin, Navarro, Noel, \&
+  Pasetto}]{Crnojevi2014}
+Crnojevi , D., Ferguson, A. M.~N., Irwin, M.~J., {et~al.} 2014, Monthly
+  Notices of the Royal Astronomical Society, 445, 3862
 
 \bibitem[{Drinkwater {et~al.}(2000)Drinkwater, Jones, Gregg, \&
   Phillipps}]{Drinkwater2000}
@@ -86,13 +110,14 @@ Drinkwater, M.~J., Jones, J.~B., Gregg, M.~D., \& Phillipps, S. 2000,
 Driver, S.~P., Hill, D.~T., Kelvin, L.~S., {et~al.} 2011, Monthly Notices of
   the Royal Astronomical Society, 413, 971
 
-\bibitem[{Eckert(2015)}]{Eckert2015B}
-Eckert, K.~D. 2015, {RESOLVE and ECO}
-
 \bibitem[{Eckert {et~al.}(2015)Eckert, Kannappan, Stark, Moffett, Norris,
   Snyder, \& Hoversten}]{Eckert2015}
 Eckert, K.~D., Kannappan, S.~J., Stark, D.~V., {et~al.} 2015, The Astrophysical
   Journal, 810, 166
+
+\bibitem[{Eckert {et~al.}(2016)Eckert, Kannappan, Stark, Moffett, Berlind, \&
+  Norris}]{Eckert2016}
+Eckert, �., Kannappan, �., Stark, �., {et~al.} 2016, eprint arXiv:1604.03957
 
 \bibitem[{Evstigneeva {et~al.}(2007)Evstigneeva, Drinkwater, Jurek, Firth,
   Jones, Gregg, \& Phillipps}]{Evstigneeva2007}
@@ -112,6 +137,14 @@ Falco, E., Kurtz, M., Geller, M., {et~al.} 1999, Publications of the
 Forbes, D.~A., Norris, M.~A., Strader, J., {et~al.} 2014, Monthly Notices of
   the Royal Astronomical Society, 444, 2993
 
+\bibitem[{Graham(2002)}]{Graham2002}
+Graham, A.~W. 2002, The Astrophysical Journal, 568, L13
+
+\bibitem[{Guzm{\'{a}}n {et~al.}(1996)Guzm{\'{a}}n, Koo, Faber, Illingworth,
+  Takamiya, Kron, \& Bershady}]{Guzman1996}
+Guzm{\'{a}}n, R., Koo, D.~C., Faber, S.~M., {et~al.} 1996, The Astrophysical
+  Journal, 460, doi:10.1086/309966
+
 \bibitem[{Hau {et~al.}(2009)Hau, Spitler, Forbes, Proctor, Strader, Mendel,
   Brodie, \& Harris}]{Hau2009}
 Hau, G. K.~T., Spitler, L.~R., Forbes, D.~A., {et~al.} 2009, Monthly Notices of
@@ -129,11 +162,6 @@ Haynes, M.~P., Giovanelli, R., Martin, A.~M., {et~al.} 2011, The Astronomical
   Tonry, \& Merritt}]{Hasegan2005}
 Haşegan, M., Jordan, A., Cote, P., {et~al.} 2005, The Astrophysical Journal,
   627, 203
-
-\bibitem[{Hilker {et~al.}(1999)Hilker, Infante, Vieira, Kissler-Patig, \&
-  Richtler}]{Hilker1999}
-Hilker, M., Infante, L., Vieira, G., Kissler-Patig, M., \& Richtler, T. 1999,
-  Astronomy and Astrophysics Supplement Series, 134, 75
 
 \bibitem[{Huxor {et~al.}(2013)Huxor, Phillipps, \& Price}]{Huxor2013}
 Huxor, A.~P., Phillipps, S., \& Price, J. 2013, Monthly Notices of the Royal
@@ -166,6 +194,33 @@ Jones, D.~H., Read, M.~A., Saunders, W., {et~al.} 2009, Monthly Notices of the
   Bekki, Couch, Karick, Parker, \& Smith}]{Jones2006}
 Jones, J.~B., Drinkwater, M.~J., Jurek, R., {et~al.} 2006, The Astronomical
   Journal, 131, 312
+
+\bibitem[{Kannappan \& Gawiser(2007)}]{Kannappan2007}
+Kannappan, S.~J., \& Gawiser, E. 2007, The Astrophysical Journal, 657, L5
+
+\bibitem[{Kannappan {et~al.}(2009)Kannappan, Guie, \& Baker}]{Kannappan2009}
+Kannappan, S.~J., Guie, J.~M., \& Baker, A.~J. 2009, The Astronomical Journal,
+  138, 579
+
+\bibitem[{Kannappan {et~al.}(2013)Kannappan, Stark, Eckert, Moffett, Wei,
+  Pisano, Baker, Vogel, Fabricant, Laine, Norris, Jogee, Lepore, Hough, \&
+  Weinberg-Wolf}]{Kannappan2013}
+Kannappan, S.~J., Stark, D.~V., Eckert, K.~D., {et~al.} 2013, The Astrophysical
+  Journal, 777, 42
+
+\bibitem[{Koo {et~al.}(1994)Koo, Bershady, Wirth, Stanford, \&
+  Majewski}]{Koo1994}
+Koo, D.~C., Bershady, M.~A., Wirth, G.~D., Stanford, S.~A., \& Majewski, S.~R.
+  1994, The Astrophysical Journal, 427, L9
+
+\bibitem[{Kormendy \& Bender(2012)}]{Kormendy2012a}
+Kormendy, J., \& Bender, R. 2012, The Astrophysical Journal Supplement Series,
+  198, 2
+
+\bibitem[{Kormendy {et~al.}(1997)Kormendy, Bender, Magorrian, Tremaine,
+  Gebhardt, Richstone, Dressler, Faber, Grillmair, \& Lauer}]{Kormendy1997}
+Kormendy, J., Bender, R., Magorrian, J., {et~al.} 1997, The Astrophysical
+  Journal, 482, L139
 
 \bibitem[{Lawrence {et~al.}(2007)Lawrence, Warren, Almaini, Edge, Hambly,
   Jameson, Lucas, Casali, Adamson, Dye, Emerson, Foucaud, Hewett, Hirst,
@@ -238,6 +293,10 @@ Paudel, S., Lisker, T., Hansson, K. S.~A., \& Huxor, A.~P. 2014, Monthly
 Peng, C.~Y., Ho, L.~C., Impey, C.~D., \& Rix, H.-W. 2002, The Astronomical
   Journal, 124, 266
 
+\bibitem[{Penny {et~al.}(2014)Penny, Forbes, Pimbblet, \& Floyd}]{Penny2014}
+Penny, S.~J., Forbes, D.~A., Pimbblet, K.~A., \& Floyd, D. J.~E. 2014, Monthly
+  Notices of the Royal Astronomical Society, 443, 3381
+
 \bibitem[{Pfeffer \& Baumgardt(2013)}]{Pfeffer2013}
 Pfeffer, J., \& Baumgardt, H. 2013, Monthly Notices of the Royal Astronomical
   Society, 433, 1997
@@ -270,6 +329,11 @@ Skrutskie, M.~F., Cutri, R.~M., Stiening, R., {et~al.} 2006, The Astronomical
   Bassino, Richtler, Romero, Calder{\'{o}}n, \& Caso}]{SmithCastelli2012}
 {Smith Castelli}, A.~V., Cellone, S.~A., Faifer, F.~R., {et~al.} 2012, Monthly
   Notices of the Royal Astronomical Society, 419, 2472
+
+\bibitem[{{Smith Castelli} {et~al.}(2008){Smith Castelli}, Faifer, Richtler, \&
+  Bassino}]{SmithCastelli2008a}
+{Smith Castelli}, A.~V., Faifer, F.~R., Richtler, T., \& Bassino, L.~P. 2008,
+  Monthly Notices of the Royal Astronomical Society, 391, 685
 
 \bibitem[{van Dokkum(2001)}]{vanDokkum2001}
 van Dokkum, P. 2001, Publications of the Astronomical Society of the Pacific,

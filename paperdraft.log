@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  17 APR 2016 18:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 APR 2016 02:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -624,46 +624,43 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 21.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 22.
 Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with
- fingers crossed) on input line 21.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 21.
+ fingers crossed) on input line 22.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 22.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 21.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 21.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 21.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 22.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 22.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 22.
 
 (./paperdraft.aux
 
-LaTeX Warning: Label `fig:envplot' multiply defined.
-
-
-LaTeX Warning: Label `flg:fsmgr' multiply defined.
+LaTeX Warning: Label `kin' multiply defined.
 
 )
 \openout1 = `paperdraft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 21.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 22.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -691,7 +688,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
-Package hyperref Info: Link coloring ON on input line 21.
+Package hyperref Info: Link coloring ON on input line 22.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -701,81 +698,81 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
 (./paperdraft.out) (./paperdraft.out)
 \@outlinefile=\write4
 \openout4 = `paperdraft.out'.
 
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 21.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 22.
 \openout3 = `paperdraftNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 38.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 42.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 38
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 42
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 38.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 42.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+LaTeX Font Info:    Try loading font information for U+msa on input line 42.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 42.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+psy on input line 38.
+LaTeX Font Info:    Try loading font information for U+psy on input line 42.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
  [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 83.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 75.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 89.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 81.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 107.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 99.
 
-Underfull \hbox (badness 1735) in paragraph at lines 107--108
+Underfull \hbox (badness 1735) in paragraph at lines 99--100
  []\T1/ptm/m/n/10 The ini-tial in-put file tells \T1/ptm/m/sc/10 Gal-fit
  []
 
 [3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 152.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 144.
 Package epstopdf Info: Source file: <CCGpics.eps>
 (epstopdf)                    date: 2016-04-17 18:37:13
 (epstopdf)                    size: 1102722 bytes
@@ -784,33 +781,41 @@ Package epstopdf Info: Source file: <CCGpics.eps>
 (epstopdf)                    size: 37794 bytes
 (epstopdf)             Command: <repstopdf --outfile=CCGpics-eps-converted-to.p
 df CCGpics.eps>
-(epstopdf)             \includegraphics on input line 164.
+(epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
- <CCGpics-eps-converted-to.pdf, id=310, 451.6875pt x 112.42pt>
+ <CCGpics-eps-converted-to.pdf, id=327, 451.6875pt x 112.42pt>
 File: CCGpics-eps-converted-to.pdf Graphic file (type pdf)
 
 <use CCGpics-eps-converted-to.pdf>
-Package pdftex.def Info: CCGpics-eps-converted-to.pdf used on input line 164.
+Package pdftex.def Info: CCGpics-eps-converted-to.pdf used on input line 157.
 (pdftex.def)             Requested size: 451.68639pt x 112.41972pt.
 Package epstopdf Info: Source file: <Reff_Mstars.eps>
-(epstopdf)                    date: 2016-04-17 18:19:38
+(epstopdf)                    date: 2016-04-17 18:49:28
 (epstopdf)                    size: 441619 bytes
 (epstopdf)             Output file: <Reff_Mstars-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-17 18:19:59
-(epstopdf)                    size: 263203 bytes
+(epstopdf)                    date: 2016-04-17 18:49:47
+(epstopdf)                    size: 263205 bytes
 (epstopdf)             Command: <repstopdf --outfile=Reff_Mstars-eps-converted-
 to.pdf Reff_Mstars.eps>
-(epstopdf)             \includegraphics on input line 182.
+(epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
 
-<Reff_Mstars-eps-converted-to.pdf, id=312, 433.62pt x 361.35pt>
+<Reff_Mstars-eps-converted-to.pdf, id=332, 433.62pt x 361.35pt>
 File: Reff_Mstars-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Reff_Mstars-eps-converted-to.pdf>
-Package pdftex.def Info: Reff_Mstars-eps-converted-to.pdf used on input line 18
-2.
+Package pdftex.def Info: Reff_Mstars-eps-converted-to.pdf used on input line 17
+7.
 (pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
- [4] [5 <./CCGpics-eps-converted-to.pdf> <./Reff_Mstars-eps-converted-to.pdf>]
+
+
+Class revtex4-1 Warning: Float cannot be placed.
+
+[4] [5 <./CCGpics-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 217.
+
+[6 <./Reff_Mstars-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <rf0078ppxffit.eps>
 (epstopdf)                    date: 2016-04-17 18:40:40
 (epstopdf)                    size: 1116810 bytes
@@ -819,15 +824,15 @@ Package epstopdf Info: Source file: <rf0078ppxffit.eps>
 (epstopdf)                    size: 47233 bytes
 (epstopdf)             Command: <repstopdf --outfile=rf0078ppxffit-eps-converte
 d-to.pdf rf0078ppxffit.eps>
-(epstopdf)             \includegraphics on input line 232.
+(epstopdf)             \includegraphics on input line 220.
 Package epstopdf Info: Output file is already uptodate.
 
-<rf0078ppxffit-eps-converted-to.pdf, id=369, 578.16pt x 434.62375pt>
+<rf0078ppxffit-eps-converted-to.pdf, id=411, 578.16pt x 434.62375pt>
 File: rf0078ppxffit-eps-converted-to.pdf Graphic file (type pdf)
 
 <use rf0078ppxffit-eps-converted-to.pdf>
 Package pdftex.def Info: rf0078ppxffit-eps-converted-to.pdf used on input line 
-232.
+220.
 (pdftex.def)             Requested size: 231.2599pt x 173.8464pt.
 Package epstopdf Info: Source file: <sfr_mbary.eps>
 (epstopdf)                    date: 2016-04-17 18:19:38
@@ -837,18 +842,18 @@ Package epstopdf Info: Source file: <sfr_mbary.eps>
 (epstopdf)                    size: 536635 bytes
 (epstopdf)             Command: <repstopdf --outfile=sfr_mbary-eps-converted-to
 .pdf sfr_mbary.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
 
-<sfr_mbary-eps-converted-to.pdf, id=370, 794.97pt x 361.35pt>
+<sfr_mbary-eps-converted-to.pdf, id=412, 794.97pt x 361.35pt>
 File: sfr_mbary-eps-converted-to.pdf Graphic file (type pdf)
 
 <use sfr_mbary-eps-converted-to.pdf>
-Package pdftex.def Info: sfr_mbary-eps-converted-to.pdf used on input line 246.
+Package pdftex.def Info: sfr_mbary-eps-converted-to.pdf used on input line 234.
 
 (pdftex.def)             Requested size: 516.72438pt x 234.87471pt.
 
-Overfull \hbox (3.60695pt too wide) in paragraph at lines 246--247
+Overfull \hbox (3.60695pt too wide) in paragraph at lines 234--235
  [] 
  []
 
@@ -860,25 +865,15 @@ Package epstopdf Info: Source file: <nn_groupmass.eps>
 (epstopdf)                    size: 251499 bytes
 (epstopdf)             Command: <repstopdf --outfile=nn_groupmass-eps-converted
 -to.pdf nn_groupmass.eps>
-(epstopdf)             \includegraphics on input line 265.
+(epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
-<nn_groupmass-eps-converted-to.pdf, id=373, 433.62pt x 361.35pt>
+<nn_groupmass-eps-converted-to.pdf, id=420, 433.62pt x 361.35pt>
 File: nn_groupmass-eps-converted-to.pdf Graphic file (type pdf)
 
 <use nn_groupmass-eps-converted-to.pdf>
 Package pdftex.def Info: nn_groupmass-eps-converted-to.pdf used on input line 2
-65.
+51.
 (pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
- [6]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 270.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 270.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
 Package epstopdf Info: Source file: <faber-jackson_resolvesigmas.eps>
 (epstopdf)                    date: 2016-04-17 18:19:38
 (epstopdf)                    size: 54842 bytes
@@ -888,59 +883,54 @@ to.pdf>
 (epstopdf)                    size: 28489 bytes
 (epstopdf)             Command: <repstopdf --outfile=faber-jackson_resolvesigma
 s-eps-converted-to.pdf faber-jackson_resolvesigmas.eps>
-(epstopdf)             \includegraphics on input line 278.
+(epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<faber-jackson_resolvesigmas-eps-converted-to.pdf, id=386, 433.62pt x 361.35pt>
+<faber-jackson_resolvesigmas-eps-converted-to.pdf, id=423, 433.62pt x 361.35pt>
 File: faber-jackson_resolvesigmas-eps-converted-to.pdf Graphic file (type pdf)
 <use faber-jackson_resolvesigmas-eps-converted-to.pdf>
 Package pdftex.def Info: faber-jackson_resolvesigmas-eps-converted-to.pdf used 
-on input line 278.
+on input line 265.
 (pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
-
-
-Class revtex4-1 Warning: Float cannot be placed.
-
-
-LaTeX Warning: Float too large for page by 350.88316pt on input line 415.
-
-(./paperdraft.bbl) [7 <./rf0078ppxffit-eps-converted-to.pdf>] [8 <./sfr_mbary-e
-ps-converted-to.pdf> <./nn_groupmass-eps-converted-to.pdf>] [9 <./faber-jackson
-_resolvesigmas-eps-converted-to.pdf>] [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 423.
+ [7 <./rf0078ppxffit-eps-converted-to.pdf>] (./paperdraft.bbl [8 <./sfr_mbary-e
+ps-converted-to.pdf>]
+[9 <./nn_groupmass-eps-converted-to.pdf>]) [10 <./faber-jackson_resolvesigmas-e
+ps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
  (./paperdraft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 423.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 423.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
 Package rerunfilecheck Info: File `paperdraft.out' has not changed.
-(rerunfilecheck)             Checksum: 6F17624FFD6AE09B96333EAB50C32D7F;1967.
+(rerunfilecheck)             Checksum: 53060EB373164B50206A4EED39E35758;1528.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9696 strings out of 493117
- 137069 string characters out of 6135433
- 328496 words of memory out of 5000000
- 12851 multiletter control sequences out of 15000+600000
- 82956 words of font info for 122 fonts, out of 8000000 for 9000
+ 9754 strings out of 493117
+ 138238 string characters out of 6135433
+ 248626 words of memory out of 5000000
+ 12900 multiletter control sequences out of 15000+600000
+ 81461 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,28p,1873b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,28p,2088b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/font
-s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on paperdraft.pdf (10 pages, 1275019 bytes).
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on paperdraft.pdf (10 pages, 1289123 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 443 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 552 PDF objects out of 1000 (max. 8388607)
+ 503 compressed objects within 6 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 
