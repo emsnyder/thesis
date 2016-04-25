@@ -36,6 +36,10 @@ Bekki, K., Couch, W.~J., \& Drinkwater, M.~J. 2001, The Astrophysical Journal,
 Bekki, K., \& Freeman, K.~C. 2003, Monthly Notices of the Royal Astronomical
   Society, 346, L11
 
+\bibitem[{Bender {et~al.}(1992)Bender, Burstein, \& Faber}]{Bender1992}
+Bender, R., Burstein, D., \& Faber, S.~M. 1992, The Astrophysical Journal, 399,
+  462
+
 \bibitem[{Berlind {et~al.}(2006)Berlind, Frieman, Weinberg, Blanton, Warren,
   Abazajian, Scranton, Hogg, Scoccimarro, Bahcall, Brinkmann, {Gott III},
   Kleinman, Krzesinski, Lee, Miller, Nitta, Schneider, Tucker, \&
@@ -127,6 +131,9 @@ Evstigneeva, E.~A., Drinkwater, M.~J., Jurek, R., {et~al.} 2007, Monthly
 \bibitem[{Faber(1973)}]{Faber1973}
 Faber, S.~M. 1973, The Astrophysical Journal, 179, 423
 
+\bibitem[{Faber \& Jackson(1976)}]{faber1976}
+Faber, S.~M., \& Jackson, R.~E. 1976, The Astrophysical Journal, 204, 668
+
 \bibitem[{Falco {et~al.}(1999)Falco, Kurtz, Geller, Huchra, Peters, Berlind,
   Mink, Tokarz, \& Elwell}]{Falco1999}
 Falco, E., Kurtz, M., Geller, M., {et~al.} 1999, Publications of the
@@ -201,6 +208,11 @@ Kannappan, S.~J., \& Gawiser, E. 2007, The Astrophysical Journal, 657, L5
 \bibitem[{Kannappan {et~al.}(2009)Kannappan, Guie, \& Baker}]{Kannappan2009}
 Kannappan, S.~J., Guie, J.~M., \& Baker, A.~J. 2009, The Astronomical Journal,
   138, 579
+
+\bibitem[{Kannappan {et~al.}(2008)Kannappan, Wei, Minchin, \&
+  Momjian}]{Kannappan2008}
+Kannappan, S.~J., Wei, L.~H., Minchin, R., \& Momjian, E. 2008, in AIP
+  Conference Proceedings, Vol. 1035 (AIP), 163--168
 
 \bibitem[{Kannappan {et~al.}(2013)Kannappan, Stark, Eckert, Moffett, Wei,
   Pisano, Baker, Vogel, Fabricant, Laine, Norris, Jogee, Lepore, Hough, \&

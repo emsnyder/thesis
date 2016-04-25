@@ -3,6 +3,7 @@
 \usepackage{apjfonts}
 \usepackage{natbib}
 \usepackage{epstopdf}
+\usepackage{gensymb}
 \usepackage{longtable}
 \usepackage{amsmath,amstext,textcomp}
 \usepackage[breaklinks,colorlinks,citecolor=blue,linkcolor=magenta]{hyperref} 
@@ -25,20 +26,23 @@
 \author{Elaine M. Snyder\altaffilmark{1}}
 \author{Sheila J. Kannappan\altaffilmark{1}}
 \author{Dara J. Norman\altaffilmark{2}}
-\author{Mark N. Norris\altaffilmark{3}}
+\author{Mark A. Norris\altaffilmark{3}}
 \author{Callie Hood\altaffilmark{1}}
 \author{Ashley S. Bittner\altaffilmark{1}}
 \author{Kathleen D. Eckert\altaffilmark{1}}
-\author{Amanda J. Moffett\altaffilmark{1,4}}
+\author{Ian Dell'Antonio\altaffilmark{4}}
+\author{Samantha Dallas\altaffilmark{4}}
+\author{Amanda J. Moffett\altaffilmark{1,5}}
 \author{David V. Stark\altaffilmark{1}}
 \author{the RESOLVE Team}
 \affil{$^1$Department of Physics and Astronomy, University of North Carolina, 141 Chapman Hall CB 3255, Chapel Hill, NC 27599, USA; emsnyder@live.unc.edu}
 \affil{$^2$National Optical Astronomical Observatory, 950 N Cherry Ave, Tucson, AZ 85719, USA}
 \affil{$^3$Jeremiah Horrocks Institute, University of Central Lancashire, Preston, PR1 2HE, United Kingdom}
-\affil{$^4$International Centre for Radio Astronomy Research (ICRAR), The University ofWestern Australia, 35 Stirling High-
+\affil{$^4$Department of Physics, Brown Univsersity, Box 1843, 182 Hope Street, Barus \& Holley, Providence, RI 02912} 
+\affil{$^5$International Centre for Radio Astronomy Research (ICRAR), The University ofWestern Australia, 35 Stirling High-
 way, Crawley, WA 6009, Australia}
 \begin{abstract}
-We analyze the complete set of 96 compact core galaxies (CCGs) in the volume-limited RESOLVE survey to investigate the formation and evolution of compact galaxies such as ultra compact dwarfs (UCDs), compact ellipticals (cEs), and dwarf ellipticals (dEs) across a broad statistical distribution of environments. We perform one and two component S\'ersic fits KIDSS for all galaxies in the RESOLVE sample with UKIDSS $Y$-band imaging using \textsc{Galfit}, which produces seeing-deconvolved effective radius (\Reff) measurements. The one component fits are used to select candidate CCGs with \Reff\ $< 1000$ pc, and then perform new two component fits to these galaxies with the S\'ersic n of the second component held fixed at 1 for an exponential disk. We finalize the CCG sample by selecting on core-only (first component) \Reff\ $<800$pc, an upper limit that encompasses all of the similarly compact stellar systems (UCDs, cEs, dEs) included in the Archive of Intermediate Mass Stellar Systems (AIMSS) catalog. We quantify the amount of light in the core and envelope of each CCG by taking the logarithm of the ratio of the fluxes in each component. The result is a smooth continuum of CCGs that range from envelope-dominated to core+envelope to core-dominated. With GALEX $NUV$, SDSS $ugriz$, and 2MASS/UKIDSS $YJHK$ data, we derive colors and star formation histories and find that a significant number of CCGs live on the blue sequence and have recently formed stars. We find that CCGs naturally occur in a range of environments from isolated to cluster. We compare velocity dispersions of CCGs derived from Gemini IFU data and SOAR spectroscopy to velocity dispersions of other RESOLVE galaxies and the cEs and and dEs of AIMSS. We search for CCGs offset to higher or lower dispersion in the dispersion-stellar mass relation, which may indicate tidal stripping or dissipative formation, respectively. Initial results show several CCGs following the dissipative formation track.
+We analyze the complete set of 96 ``compact core galaxies'' (CCGs) in the volume-limited RESOLVE survey to investigate their formation and evolution in relation to compact galaxies such as ultra compact dwarfs (UCDs), compact ellipticals (cEs), and dwarf ellipticals (dEs) across a broad statistical distribution of environments. To identify CCGs, we use \textsc{Galfit} to perform one- and two-component S\'ersic fits for all galaxies in RESOLVE with UKIDSS $Y$-band imaging (XX\% of the survey), which produces seeing-deconvolved effective radius (\Reff) measurements. The one component fits are used to select candidate CCGs with \Reff\ $< 1000$ pc, and we then perform new two component fits to these galaxies with the S\'ersic n of the second component held fixed at 1 for an exponential disk. We finalize the CCG sample by selecting on core-only (first component) \Reff\ $<800$pc, an upper limit that encompasses all of the similarly compact stellar systems (UCDs, cEs, dEs) included in the Archive of Intermediate Mass Stellar Systems (AIMSS) catalog. We quantify the amount of light in the core and envelope of each CCG by taking the logarithm of the ratio of the light in each component. The result is a smooth continuum of CCGs that range from envelope-dominated to core+envelope to core-dominated. With GALEX $NUV$, SDSS $ugriz$, and 2MASS/UKIDSS $YJHK$ data, we derive colors and star formation histories and find that a significant number of CCGs live on the blue sequence and have recently formed stars. We find that CCGs naturally occur in a range of environments from isolated to cluster. We also derive velocity dispersions for 8 CCGs from Gemini IFU data and SOAR spectroscopy. Comparing to other RESOLVE galaxies and AIMSS cEs/dEs, we search for CCGs offset to higher or lower dispersion in the dispersion-stellar mass relation, which may indicate tidal stripping or dissipative formation, respectively. Initial results show 7 CCGs clearly following the dissipative formation track.
 \end{abstract}
 
 \keywords{galaxies: formation, evolution --- surveys}
@@ -49,19 +53,25 @@ We analyze the complete set of 96 compact core galaxies (CCGs) in the volume-lim
 \section{Introduction}
 \label{intro}
 
-\noindent The term compact stellar system (CSS) encompasses a class of galaxies that spans the radius range ($\sim10 - 800$ pc), lying between globular clusters (GCs) and normal elliptical galaxies (Es). Different types of CSSs include ultra compact dwarf galaxies (UCDs; \citet{Phillipps2001}), compact elliptical galaxies (cEs; \citet{Faber1973}), dwarf elliptical galaxies (dEs), and nucleated dwarf elliptical galaxies (dE,Ns).  There are many unanswered questions about CSSs, typically involving how they form and evolve through time. One fact that makes the study of these compact galaxies so intriguing is their relative scarcity, which raises the question as to whether they are an intermediate and short-lived evolutionary phase in the life of a galaxy, or simply hard to find due to their size. Only in the last 15 years have we discovered enough ($\sim 40$) of these objects to enable studies of their formation scenarios and evolution over cosmic time.
+\noindent The term compact stellar system (CSS) encompasses a class of galaxies that spans the radius range ($\sim10 - 800$ pc), lying between globular clusters (GCs) and normal elliptical galaxies (Es). Different types of CSSs include ultra compact dwarf galaxies \citep[UCDs;][]{Phillipps2001} and compact elliptical galaxies \citep[cEs;][]{Faber1973}. There are many unanswered questions about how CSSs form and evolve through time. One fact that makes the study of these compact galaxies so intriguing is their apparent scarcity, which raises the question as to whether they are an intermediate and short-lived evolutionary phase in the life of a galaxy, or simply hard to find due to their size. Only in the last 15 years have we discovered enough ($\sim 40$) of these objects to enable studies of their formation scenarios and evolution over cosmic time.
 
-UCDs, the smallest of the CSSs mentioned above with radii ranging from 10--100 pc (see Figure 11 in \citet{Norris2014}), are largely believed to be either the high mass extension of the globular cluster population (\citet{Drinkwater2000}, \citet{Mieske2002}) or tidally-stripped remnants of nucleated dwarf galaxies (\citet{Bekki2001}, \citet{Bekki2003}, \citet{Jennings2015}, \citet{Zhang2015}). \citet{Norris2011} find evidence that UCDs are a ``mixed bag'' of both giant GCs and stripped nuclei based on their analysis of UCDs discovered near the elliptical galaxy NGC3923 and S0 galaxy NGC4546. \citet{Seth2014} find a supermassive black hole at the center of a UCD near M60, a massive elliptical galaxy, lending more evidence toward tidal stripping being a common for UCDs.
+In contrast, dwarf elliptical galaxies (dEs) and their nucleated dwarf elliptical galaxies (dE,Ns) are ...
+
+UCDs, the smallest of the CSSs mentioned above with radii ranging from 10--100 pc \citep[e.g.,][]{Norris2014}, are largely believed to be either the high mass extension of the globular cluster population \citep{Drinkwater2000, Mieske2002} or tidally-stripped remnants of nucleated dwarf galaxies \citep{Bekki2001, Bekki2003, Jennings2015, Zhang2015}. \citet{Norris2011} find evidence that UCDs are a ``mixed bag'' of both giant GCs and stripped nuclei based on their analysis of UCDs discovered near the elliptical galaxy NGC3923 and the S0 galaxy NGC4546. \citet{Seth2014} find a supermassive black hole at the center of another UCD, providing further evidence of tidal stripping being common for UCDs.
  
-Meanwhile, cEs have radii ranging typically from $\sim$100--600 pc (again see Figure 11 in \citet{Norris2014}). They are typically thought to be either the result of a tidal stripping event, as is the case for the prototypical cE, M32 (\citet{Choi2002}, \citet{Graham2002}), or as a part of the low mass extension to the E population. The evidence for tidal stripping includes finding tidal streams near cEs (\citet{SmithCastelli2008a}, \citet{Chilingarian2009}) and one cE, studied in \citet{Kormendy1997}, that is believed to host a central massive black hole. On the other hand, \citet{Kormendy2012a} argue that cEs are the extension of normal E galaxies.
+Moving up in size, cEs have radii ranging typically from $\sim$100--600 pc \citep[e.g.,][]{Norris2014}. Similarly to UCDs, they are typically thought to be the result of a tidal stripping event, as is the case for the prototypical cE, M32 \citep{Choi2002, Graham2002}. The evidence for tidal stripping includes finding tidal streams near cEs \citep{SmithCastelli2008a,Chilingarian2009} and one cE, studied in \citet{Kormendy1997}, that is believed to host a central massive black hole. On the other hand, \citet{Kormendy2012a} argue that cEs could be the low mass extension to the normal E population created via dissipative formation in gas rich environments. \citet{Norris2014} argue that both scenarios are likely at play. %explain more
 
-dEs and their nucleated counterparts, dE,Ns, are the largest of the CSSs mentioned with radii ranging from $\sim$600-800 pc (again see Figure 11 in \citet{Norris2014}). Similarly to cEs, dEs and dE,Ns are thought to be either tidally stripped remnants (\citet{Crnojevi2014} find dEs in M31 that show signs of tidal stripping) or the low mass extension to elliptical galaxies \citep{Crawford2016}. They could also be the remnants of LCBDs that have been ram-pressure stripped as they entered the cluster environment and subsequently quenched. There is some evidence that dE,Ns are the progenitors of UCDs (\citet{Pfeffer2013}, \citet{Zhang2015}, \citet{Liu2015}).
+In contrast to CSSs, dEs and dE,Ns, are the largest of the CSSs mentioned with radii ranging from $\sim$600-800 pc \citep[e.g.,][]{Norris2014}. Similar again to UCDs and cEs, dEs are often thought to be either tidally stripped remnants (\citet{Crnojevi2014} find dEs in M31 that show signs of tidal stripping) or the low mass extension to elliptical galaxies \citep{Crawford2016}. They could also be the remnants of LCBDs that have been ram-pressure stripped as they entered the cluster environment and subsequently quenched.  There is some evidence that dE,Ns are the progenitors of UCDs (\citet{Pfeffer2013}, \citet{Zhang2015}, \citet{Liu2015}).
 
-Clues to how a CSS is formed may be given by their environments. UCDs, cEs, dEs have all been found in clusters (for UCDs: \citet{Price2009}, \citet{Madrid2010}, \citet{Hasegan2005}, \citet{Jones2006}, \citet{Mieske2009}, \citet{Wehner2007}, \citet{Misgeld2008}; for cEs: \citet{Chilingarian2007}, \citet{SmithCastelli2012}, \citet{Price2009}; and dEs: \citep{SmithCastelli2012}, \citet{Koo1994}, \citet{Guzman1996}, \citet{Crawford2016}). Fewer CSSs have been found in groups: \citet{Evstigneeva2007} find one definite UCD and two candidates in the Dorado group as well as two candidates in the NGC1400 group and \citet{Hau2009} find a UCD near the Sombrero galaxy; \citet{Huxor2011} and \citet{Chilingarian2010} find cEs in groups; and \citet{Crnojevi2014}  \citet{Penny2014} find dEs in groups. Lastly, only cEs have been found in isolated environments: \citet{Huxor2013}, \citet{Paudel2014}, and \citet{Chilingarian2015} find cEs separated from other galaxies by $>1$ Mpc.
+Clues to how CCGs form may be given by their morphology i.e., one- or two-component structure, environments, star formation histories, and kinematics. \citet{Pfeffer2013} predict that tidally stripped remnants will display multi-component surface brightness profiles due to lingering outer galaxy structures. Dissipative processes could also cause cores to form as gas rushes to the center and star formation begins. These effects could vary, however, based on the degree of stripping and how much time has passed since the stripping or dissipative formation occurred.
 
-Given the similarities in formation scenarios and environments for these CSSs, we propose to study these galaxies as a part of a continuum of compact galaxies instead of being broken up into (perhaps somewhat arbitrary) classes based on \Reff. Critical to this study is a ubiquitous sample of CSSs that will allow us to analyze their formation as a function of all environments. Previous studies have mainly focused on selecting targets in the group/cluster environments, since this route is often more convenient. Our goal is thus to create a complete and volume-limited sample of compact galaxies across all environments so that we may examine their formation and evolution.
+CSSs have been found in a range of environments thus far. In the cluster environment we find UCDs \citep{Price2009,Madrid2010,Hasegan2005,Jones2006,Mieske2009,Wehner2007,Misgeld2008}, cEs \citep{Chilingarian2007,SmithCastelli2012,Price2009}, and dEs \citep{SmithCastelli2012,Koo1994,Guzman1996,Crawford2016}. Fewer CSSs have been found in groups: \citet{Evstigneeva2007} find one definite UCD and two candidates in the Dorado group as well as two candidates in the NGC1400 group and \citet{Hau2009} find a UCD near the Sombrero galaxy; \citet{Huxor2011} and \citet{Chilingarian2010} find cEs in groups; and \citet{Crnojevi2014}  \citet{Penny2014} find dEs in groups. Lastly, only cEs have been found in isolated environments: \citet{Huxor2013}, \citet{Paudel2014}, and \citet{Chilingarian2015} find cEs separated from other galaxies by $>1$ Mpc. CSSs found in group or cluster environments may be tidally stripped remnants, whereas isolated CCSs may rather be disippatively formed like normal Es.
 
-This paper presents the preliminary results of this work, characterizing the colors, star formation histories, environments, and preliminary kinematics of the first complete, volume-limited sample of CCGs. The paper is organized as follows. We explain our methods for performing seeing-deconvolved one and two component fits for the entire RESOLVE sample using \textsc{Galfit} in \autoref{deconv}. We then explain the selection of the CCG sample from the RESOLVE survey in \autoref{CCGs}. We then describe our photometric and spectroscopic data and analysis in \autoref{methods}. We gives our results in \autoref{results}. Lastly, our results are summarized in \autoref{conclusions}.
+Another useful tool we have in discerning between formation scenarios is the galaxy's stellar velocity dispersion ($\sigma$). \citet{Bender1992} and \citet{Bekki2003} show that $\sigma$ will remain largely unchanged when tidal stripping occurs, even though the \Reff\ and stellar mass will be greatly reduced. Thus, galaxies that are offset to higher $\sigma$ in a Faber-Jackson (stellar mass -- $\sigma$) relation \citep{faber1976} are most likely tidally stripped, while galaxies falling along the relation are most likely the low-mass extension of normal Es.
+
+Given the similarities in formation scenarios and environments for CSSs, we propose a study of these galaxies as a part of a continuum of compact galaxies instead of being broken up into (perhaps somewhat arbitrary) classes based on \Reff.  Critical to this work is a ubiquitous sample of CSSs that will allow us to analyze their formation as a function of all environments. Our goal is therefore to create a complete and volume-limited sample of compact galaxies with key data quantifying their demographics, environments, and kinematics. In this work we present the first complete, volume-limited sample of 96 compact galaxies that we term ``compact core galaxies'' or CCGs. We supplement this analysis with data on the colors and star formation histories of CCGs, which could point to recent star formation as a sign of stripping or disippative formation.
+
+This paper is organized as follows. We describe our parent sample, the RESOLVE survey, in \autoref{resolve} and our comparison sample, the AIMSS catalog, in \autoref{aimss}. Our methods for performing seeing-deconvolved one and two component fits for the entire RESOLVE sample using \textsc{Galfit} are presented in \autoref{deconv}. We then detail the selection of the CCG sample from the RESOLVE survey and quantify our CCG demographics in \autoref{CCGs}. We next describe our photometric and spectroscopic data and analysis in \autoref{methods}. We present a statistical distribution of environments, star formation histories, and velocity dispersions for the complete sample in \autoref{results}. In \autoref{discussion}, we present a discussion of our results in the context of CCG formation and evolution. Lastly, the summary and future work are given in \autoref{conclusions}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -71,18 +81,26 @@ This paper presents the preliminary results of this work, characterizing the col
 \subsection{The RESOLVE survey}
 \label{resolve}
 
-\noindent We use the RESOLVE survey (Kannpann \& Wei 2008, Kannappan et al., in prep) as the parent sample for our census of CCGs. RESOLVE is ideal because it is an unusually complete and volume-limited survey, which allows us to find CCGs at all evolutionary stages. RESOLVE falls within the footprint of the Sloan Digital Sky Survey (SDSS, \citet{York2000}), and is designed to span two individual semesters: A for the spring sky and B for the fall, which overlaps much of Stripe-82. RESOLVE-A spans $\sim38,400$ Mpc$^3$ and occupies the region 131.25\textdegree $<$ RA $<$ 236.25\textdegree, 0\textdegree $<$ Dec $<$ 5\textdegree, and 4500 km s$^{-1} <$ cz $< 7000$ km s$^{-1}$, while RESOLVE-B spans $\sim13,7000 $ Mpc$^3$ and occupies the region 330\textdegree $<$ RA $<$ 45\textdegree, -1.25\textdegree $<$ Dec $<$ 1.255\textdegree, and 4500 km s$^{-1} <$ cz $< 7000$ km s$^{-1}$.
+\noindent We use the RESOLVE survey \citep[][Kannappan et al., in prep]{Kannappan2008} as the parent sample for our census of CCGs. RESOLVE is ideal because it is an unusually complete and volume-limited survey, which allows us to find CCGs at all evolutionary stages. RESOLVE falls within the footprint of the Sloan Digital Sky Survey (SDSS, \citet{York2000}), and covers equatorial strips in both semesters: A for the northern spring sky and B for the northern fall sky, which overlaps much of Stripe-82. With $\text{H}_{\circ} = 70~\text{km~s}^{-1}$, RESOLVE-A spans $\sim38,400~\text{Mpc}^3$ and occupies the region $131.25\degree~<~\text{RA}~<~236.25\degree$ and $0\degree~<~\text{Dec}~<~5\degree$, while RESOLVE-B spans $\sim13,700~\text{Mpc}^3$ and occupies the region $330\degree~<~\text{RA}~<~45\degree$ and $-1.25\degree~<~\text{Dec}~<~1.255\degree$. Both semesters cover the redshift range 4500 km s$^{-1} <$ cz $< 7000$ km s$^{-1}$.
 
-RESOLVE's exceptional completeness is due to our use of multiple redshift surveys to recover galaxies that were missed in SDSS due to fiber collisions and several issues with their photometry pipeline. These issues include the oversubtraction of sky around galaxies that causes their flux to be underestimated and thereby not meet the magnitude cut for spectroscopic follow-up; the ``shredding'' of galaxies in which the pipeline breaks up a single galaxy into individual pieces, making no one piece meet the magnitude cut; and the intentional exclusion of low surface brightness galaxies ($\mu_{50} < 24.5$ mag arcsec$^{-2}$), even if they meet the magnitude cut. We have used SDSS along with additional redshifts from archival sources (the Updated Zwicky Catalog \citep{Falco1999}, HyperLeda \citep{Paturel2003}, 6dF \citep{Jones2009}, 2dF \citep{Colless2001}, GAMA \citep{Driver2011}, and ALFALFA \citep{Haynes2011}) to counteract these issues and build up the survey's membership.
+RESOLVE's exceptional completeness is obtained by making use of multiple redshift surveys to recover galaxies that were missed in SDSS due to fiber collisions, the ``shredding'' of galaxies in which the pipeline breaks up a single galaxy into individual pieces, so no one piece meets the magnitude cut and the intentional exclusion of low surface brightness galaxies ($\mu_{50} < 24.5$ mag arcsec$^{-2}$), even if they meet the magnitude cut. We supplement the SDSS main redshift survey with additional redshifts from archival sources (the Updated Zwicky Catalog \citep{Falco1999}, HyperLeda \citep{Paturel2003}, 6dF \citep{Jones2009}, 2dF \citep{Colless2001}, GAMA \citep{Driver2011}, and ALFALFA \citep{Haynes2011}) to achieve $\sim12\%$ higher completeness in RESOLVE-A and $\sim25\%$ higher completeness in RESOLVE-B.
 
-With its improved redshift recovery, RESOLVE is complete down to absolute $r$-band magnitudes of $-17.33$ and $-17.0$ for the A and B semesters, respectively. We can convert these absolute magnitude limits into stellar mass limits: M$_{\star} \sim 10^{8.9}$ \Msun for the A semester and M$_{\star} \sim 10^{8.7}$ \Msun in the B semester (see Figure 7 in \citet{Eckert2016}). In Figure 1, we plot the stellar masses against the deconvolved \Reff\ (see \autoref{deconv}) and see that these limits allow us to reach down to CSSs with sizes similar to cEs. We are not able to recover UCD-like objects, but this should not matter since we are studying CSSs as a whole in order to investiage evolutionary sequences.
+With its improved redshift recovery, RESOLVE is complete down to absolute $r$-band magnitudes of $-17.33$ and $-17.0$ for the A and B semesters, respectively. We can convert these absolute magnitude limits into stellar mass limits: M$_{\star} \sim 10^{8.9}$ \Msun for the A semester and M$_{\star} \sim 10^{8.7}$ \Msun in the B semester (see Figure 7 in \citet{Eckert2016}). In Figure 1, we plot the stellar masses against the deconvolved \Reff\ (see \autoref{deconv}) and see that these limits allow us to reach down to CSSs with sizes similar to cEs.
 
-An important caveat to RESOLVE's completeness is that the survey is most likely to be missing the objects this study is focused on, cEs. This is because these objects can often be mistaken for stars in redshift surveys using tools such as the \texttt{class\_star} parameter in Source Extractor \citep{Bertin1996}, which uses the flux and ellipticity of an object to determine the probability of it being a star or a galaxy. There are current ongoing efforts to use photo-z estimates to recover these objects.
+An important caveat to RESOLVE's completeness is that the survey is most likely to be missing the objects this study is focused on, cEs. This is because these objects can often be mistaken for stars in redshift surveys using tools such as the \texttt{class\_star} parameter in Source Extractor \citep{Bertin1996}. We are engaged in ongoing efforts to use photo-z estimates to recover some of these objects.
 
 \subsection{The AIMSS catalog}
 \label{aimss}
 
 \noindent We use the Archive of Intermediate Mass Stellar Systems (AIMSS) catalog (\citet{Norris2014}, \citet{Forbes2014}, \citet{Janz2015}) as a reference sample for our CCGs.  AIMSS is a catalog of spectroscopically confirmed CSSs found in groups and clusters and includes both literature and newly discovered objects. Their process to find new CSSs is as follows. First, a search is conducted in the Hyperleda redshift catalog \citep{Paturel2003} for all galaxies at distances between $\sim 7$ and 200 Mpc (to ensure CSSs with \Reff\ $> 50$ pc will be resolved in any available HST imaging) and with M$_{\rm B} < -15$. Once complete, the team then searches the Hubble Space Telescope archive for WFCP2, ACS, and WFC3 imaging within 150kpc in projection of the selected galaxies. Next, Source Extractor is run on the HST images, and candidates are identified using a training set of previously known CSSs from the literature. Once cross-matched to ensure none are previously known and vetted by eye, spectra are obtained, redshift confirmation is performed, and velocity dispersions are extracted. AIMSS also includes literature data for other UCDs, cEs, (nucleated) dEs, dwarf spheroidals, dwarf S0s, young massive clusters, and Es. AIMSS compiles M$_{\rm V}$, stellar mass, effective radius, and velocity dispersions for each of its objects. Thus, though not a statistically-defined sample, AIMSS provides a useful reference catalog to which we can calibrate and compare our CCGs.
+
+\begin{figure*}[b]
+\begin{center}
+\includegraphics[scale=0.5]{galfitexample.eps}
+\caption{Shown here are the model outputs from \textsc{Galfit}. The left column shows the UKIDSS $Y$-band image cut out around the galaxy. The middle column shows the best fit \textsc{Galfit} model, and the right column shows the residuals (data-model). The top row shows the one component fit for one of the RESOLVE galaxies, rf0055. As seen in the residual image, the model is overfitting the inner bulge, and underfitting the outer envelope. The bottow row shows the two component fit for the same galaxy. We now are able to well fit both the inner bulge and the outer envelope. The residual is much cleaner, although there may be some spiral structure remaining that could require a third component to fit.}
+\label{fig:galfit}
+\end{center}
+\end{figure*}
 
 \subsection{CCG sample selection}
 
@@ -148,18 +166,10 @@ position angle & -360 -- 360 \\ \hline
 
 For both the one and two component fits, \textsc{Galfit} outputs a text file with the best fits for central x \& y position of the model, integrated magnitude, \Reff, S\'ersic n, axial ratio (b/a), and position angle and a $\chi^2/\nu$ as well as a fits file that contains the data, best fit model, and residual images. See \autoref{fig:galfit} for example one and two component fits for a RESOLVE galaxy.
 
-\begin{figure*}[b]
-\begin{center}
-\includegraphics[scale=0.5]{galfitexample.eps}
-\caption{}
-\label{fig:galfit}
-\end{center}
-\end{figure*}
-
 \subsubsection{Selection of CCGs}
 \label{CCGs}
 
-\begin{figure*}[t]
+\begin{figure*}[hbpt!]
 \begin{center}
 \includegraphics{CCGpics.eps}
 \caption{Five of the 96 CCGs in the final sample arranged in order from envelope-only to envelope+core to core-only. Images are taken from the SDSS-DR8 image list tool. The central image is rf0492, a CCG with possible ram pressure stripping origins (see \autoref{kin}).}
@@ -179,7 +189,7 @@ We quantify the amount of light in the core vs. the envelope by taking a ratio o
 
 We see in \autoref{fig:radius} that both core- and envelope-dominated CCGs tend to be at the higher end of the \Reff\ values, while core+envelope CCGs tend to be the lower \Reff\ values. There also are more core-dominated CCGs at the higher M$_{\star}$ end while envelope-dominated CCGs tend to reside at low M$_{\star}$.
 
-\begin{figure*}[b]
+\begin{figure*}[hbpt!]
 \begin{center}
 \includegraphics{Reff_Mstars.eps}
 \caption{We plot here the deconvolved \Reff\ measurements for the entire RESOLVE sample, along with the CCSs of the AIMSS catalog. In grey are the RESOLVE (non-CCG) galaxies, which are plotted using their one component fit \Reff. The CCG sample is using the core \Reff\ of the two component fits, which is why they may appear separated from the full RESOLVE sample. The colors of the CCGs represent the logarithm of the flux ratio between the core and envelope. Galaxies with log(flux ratio) near 0 will have both a core and envelope, while galaxies with log(flux ratio) $\sim \pm 1$ will have more light in the core (+1) or envelope (-1).}
@@ -222,7 +232,7 @@ The spectral reduction proceeds as follows. Using the standard IRAF Gemini-GMOS 
 
 \noindent We then derive $\sigma$ from the both the SOAR and Gemini spectra using {\sc pPXF}, the penalized pixel fitting code from \citet{Cappellari2004}. This code fits a combination of high-resolution (FWHM $= 0.55$ \AA) ELODIE-based model spectra from \citet{Maraston2011} to the observed input spectrum, and determines a best fit solution for $\sigma$. A caveat to these fits is that they are not corrected for any stellar rotation, which will make absorption lines wider and thus skews the derived $\sigma$ values toward higher values depending on the amount of rotation in each galaxy. Future work will include implementing a stellar rotation subtraction routine for these fits, but preliminary testing by binning the spectra to $1''$ instead of to \Reff\ shows little change between the derived $\sigma$ values.
 
-\begin{figure}[t]
+\begin{figure}[hbpt!]
 \begin{center}
 \includegraphics[scale=0.4]{rf0078ppxffit.eps}
 \caption{Plotted here in black is a summed Gemini-South IFU spectrum for the CCG rf0078. Overplotted in red is the pPXF best fit model spectrum. The spectrum is zoomed-in to show the MgB triplet fit at $\sim 5275$ \AA.}
@@ -236,7 +246,7 @@ The spectral reduction proceeds as follows. Using the standard IRAF Gemini-GMOS 
 \label{results}
 \subsection{Colors and Star formation rates}
 
-\begin{figure*}[t!]
+\begin{figure*}[hbpt!]
 \begin{center}
 \includegraphics[scale=0.65]{sfr_mbary.eps}
 \caption{\textbf{(a.)} On the left we plot the $u-r$ colors against stellar mass of CCGs with the entire RESOLVE sample. \textbf{(b.)} On the right we have plotted the FSMGR against baryonic mass for both the CCGs and entire RESOLVE sample. }
@@ -253,7 +263,7 @@ Looking now at the log(flux ratio values), we see that red sequence CCGs tend to
 \noindent We investigate the distribution of CCGs throughout the cosmic web, and find that CCGs span a range of different environments (see \autoref{fig:envplot}). We see many CCGs residing in low mass groups, similar to the M32--Andromeda relationship, which suggests that tidal stripping could be at play. On the opposite end, we see several CCGs in massive group halos, and that these tend to be either core- or envelope dominated CCGs. This hints towards ram pressure stripping being at play in these environments, especially for those CCGs at larger distances from other galaxies. There are also many CCGs that are $>1$ Mpc away from another object in RA--Dec--redshift space, resembling the isolated cEs found by \citet{Huxor2013} and \citet{Paudel2014}, which may point to a dissipative formation scenario since there is no nearby object to have performed the stripping.
  
 
-\begin{figure*}[t]
+\begin{figure*}[hbpt!]
 \begin{center}
 \includegraphics{nn_groupmass.eps}
 \caption{We plot here the group halo mass against the nearest 3D neighbor for the RESOLVE survey and CCG sample. We see that CCGs live in a variety of environments, from extremely isolated (nearest neighbor $>$ 1 Mpc) to massive (M$_{\rm halo} \sim 10^{13}$ M$_{\odot}$) groups. There is no obvious trend into whether cores+envelopes and cores/envelopes preferentially live in different environments.}
@@ -267,7 +277,7 @@ Looking now at the log(flux ratio values), we see that red sequence CCGs tend to
 
 We find that most of the CCGs tend to follow the dissipative formation track. However, there is one CCG with a core+envelope that lies close to M32, a tidally stripped cE, in the relation. We now take a closer look at this CCG, rf0492. This CCG lives on the red sequence, has an FSMGR$\sim 0.08$, and has a prominent core, and can be seen in the center image of \autoref{fig:pics}. Its nearest 3D neighbor is 2.63 Mpc away, making it fairly isolated, even though it lives in a group with halo mass = $10^{12.09}$ M$_{\odot}$. This could be an example of a CCG that was perturbed, perhaps even ram pressure stripped, as it fell into this larger group, causing gas to funnel to the center to create the core we see. 
 
-\begin{figure*}[t!]
+\begin{figure*}[b]
 \begin{center}
 \includegraphics{faber-jackson_resolvesigmas.eps}
 \caption{Here we plot the stellar mass vs. velocity dispersion ($\sigma$) for the RESOLVE sample, CCGs, and the CSSs of the AIMSS catalog. Most CCGs appear to be following the dissipative formation track.}
@@ -277,8 +287,10 @@ We find that most of the CCGs tend to follow the dissipative formation track. Ho
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{CCG formation and evolution} %kind of like a discussion section
+\section{CCG formation and evolution} %kind of like a discussion section
+\label{discussion}
 
+We now take an in depth look at the 8 CCGs with kinematics. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -298,12 +310,7 @@ We find that most of the CCGs tend to follow the dissipative formation track. Ho
 \item Using velocity dispersions ($\sigma$) derived from the SOAR and Gemini telescopes, we look for offsets in $\sigma$-M$_{\star}$ relation that could point to tidal stripping or dissipative formation scenarios (see \autoref{fig:sigma}). We find that CCGs tend to follow the dissipative formation track, however one CCG with a core+envelope lies close to M32, a tidally stripped cE, in the relation. 
 \end{enumerate}
 
-\section{Future Work}
-\subsection{Gas Content}
-\noindent The amount of neutral Hydrogen gas a CCG has may be able to give us insights into its evolution over time. For example, a CCG in a galaxy cluster with little HI gas may point towards ram pressure stripping being important. Combined with CCG colors and FSMGR, the gas content may be an important tool in determining the evolution of a CCG.
-
-\subsection{Metallicities}
-\noindent \citet{Janz2015} have shown that tidally-stripped CSSs are systematically offset to higher metal abundances. With the SOAR data we have in hand, we may be able to test this hypothesis for the CCG sample and use this method as another way to discern formation scenarios.
+\noindent Future work will include investigating the gas content and metallicities of CCGs. The amount of neutral Hydrogen gas a CCG has may be able to give us insights into its evolution over time. For example, a CCG in a galaxy cluster with little HI gas may point towards ram pressure stripping being important. Combined with CCG colors and FSMGR, the gas content may be an important tool in determining the evolution of a CCG. \citet{Janz2015} have shown that tidally-stripped CSSs are systematically offset to higher metal abundances. With the SOAR data we have in hand, we may be able to test this hypothesis for the CCG sample and use this method as another way to discern formation scenarios.
 
 \acknowledgments{ \textit{Acknowledgements.}
   This work has been supported by funding from NSF grants AST-0955368 and OCI-1156614 and NASA grant HST-AR-12147.01-A. 
