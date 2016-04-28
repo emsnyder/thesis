@@ -51,6 +51,10 @@ Berlind, A.~A., Frieman, J., Weinberg, D.~H., {et~al.} 2006, The Astrophysical
 Bertin, E., \& Arnouts, S. 1996, Astronomy and Astrophysics Supplement Series,
   117, 393
 
+\bibitem[{Binggeli \& Cameron(1991)}]{Binggeli1991}
+Binggeli, Â., \& Cameron, Â. 1991, Astronomy and Astrophysics (ISSN 0004-6361),
+  252, 27
+
 \bibitem[{Blanton \& Berlind(2007)}]{Blanton2007}
 Blanton, M.~R., \& Berlind, A.~A. 2007, The Astrophysical Journal, 664, 791
 
@@ -229,6 +233,11 @@ Koo, D.~C., Bershady, M.~A., Wirth, G.~D., Stanford, S.~A., \& Majewski, S.~R.
 Kormendy, J., \& Bender, R. 2012, The Astrophysical Journal Supplement Series,
   198, 2
 
+\bibitem[{Kormendy {et~al.}(2009)Kormendy, Fisher, Cornell, \&
+  Bender}]{Kormendy2009}
+Kormendy, J., Fisher, D.~B., Cornell, M.~E., \& Bender, R. 2009, The
+  Astrophysical Journal Supplement Series, 182, 216
+
 \bibitem[{Kormendy {et~al.}(1997)Kormendy, Bender, Magorrian, Tremaine,
   Gebhardt, Richstone, Dressler, Faber, Grillmair, \& Lauer}]{Kormendy1997}
 Kormendy, J., Bender, R., Magorrian, J., {et~al.} 1997, The Astrophysical
@@ -292,6 +301,11 @@ Norris, M.~A., \& Kannappan, S.~J. 2011, Monthly Notices of the Royal
 Norris, M.~A., Kannappan, S.~J., Forbes, D.~A., {et~al.} 2014, Monthly Notices
   of the Royal Astronomical Society, 443, 1151
 
+\bibitem[{Oser {et~al.}(2010)Oser, Ostriker, Naab, Johansson, \&
+  Burkert}]{Oser2010}
+Oser, L., Ostriker, J.~P., Naab, T., Johansson, P.~H., \& Burkert, A. 2010, The
+  Astrophysical Journal, 725, 2312
+
 \bibitem[{Paturel {et~al.}(2003)Paturel, Petit, Prugniel, Theureau, Rousseau,
   Brouty, Dubois, \& Cambrï¿½sy}]{Paturel2003}
 Paturel, G., Petit, C., Prugniel, P., {et~al.} 2003, Astronomy and
@@ -353,6 +367,9 @@ vanÂ Dokkum, P. 2001, Publications of the Astronomical Society of the Pacific,
 
 \bibitem[{Wehner \& Harris(2007)}]{Wehner2007}
 Wehner, E. M.~H., \& Harris, W.~E. 2007, The Astrophysical Journal, 668, L35
+
+\bibitem[{Wirth \& {Gallagher, J. S.}(1984)}]{Wirth1984}
+Wirth, A., \& {Gallagher, J. S.}, I. 1984, The Astrophysical Journal, 282, 85
 
 \bibitem[{York {et~al.}(2000)York, Adelman, {Anderson, Jr.}, Anderson, Annis,
   Bahcall, Bakken, Barkhouser, Bastian, Berman, Boroski, Bracker, Briegel,
