@@ -111,10 +111,10 @@ Colless, M., Dalton, G., Maddox, S., {et~al.} 2001, Monthly Notices of the
 Crawford, S.~M., Wirth, G.~D., Bershady, M.~A., \& Randriamampandry, S.~M.
   2016, The Astrophysical Journal, 817, 87
 
-\bibitem[{CrnojeviÂ  {et~al.}(2014)CrnojeviÂ , Ferguson, Irwin, McConnachie,
+\bibitem[{Crnojevi\'c {et~al.}(2014)Crnojevi\'c, Ferguson, Irwin, McConnachie,
   Bernard, Fardal, Ibata, Lewis, Martin, Navarro, Noel, \&
-  Pasetto}]{Crnojevi2014}
-CrnojeviÂ , D., Ferguson, A. M.~N., Irwin, M.~J., {et~al.} 2014, Monthly
+  Pasetto}]{Crnojevic2014}
+Crnojevi\'c, D., Ferguson, A. M.~N., Irwin, M.~J., {et~al.} 2014, Monthly
   Notices of the Royal Astronomical Society, 445, 3862
 
 \bibitem[{Dekel \& Burkert(2013)}]{Dekel2013}
@@ -137,14 +137,14 @@ Drinkwater, M.~J., Jones, J.~B., Gregg, M.~D., \& Phillipps, S. 2000,
 Driver, S.~P., Hill, D.~T., Kelvin, L.~S., {et~al.} 2011, Monthly Notices of
   the Royal Astronomical Society, 413, 971
 
-\bibitem[{Eckert {et~al.}(2015)Eckert, Kannappan, Stark, Moffett, Norris,
-  Snyder, \& Hoversten}]{Eckert2015}
-Eckert, K.~D., Kannappan, S.~J., Stark, D.~V., {et~al.} 2015, The Astrophysical
-  Journal, 810, 166
-
 \bibitem[{Eckert {et~al.}(2016)Eckert, Kannappan, Stark, Moffett, Berlind, \&
   Norris}]{Eckert2016}
-Eckert, Â., Kannappan, Â., Stark, Â., {et~al.} 2016, eprint arXiv:1604.03957
+Eckert, K.~D., Kannappan, S.~J., Stark, D.~V., {et~al.} 2016, eprint
+  arXiv:1604.03957
+
+\bibitem[{Eckert {et~al.}(2015)Eckert, Kannappan, Stark, Moffett, Norris,
+  Snyder, \& Hoversten}]{Eckert2015}
+---. 2015, The Astrophysical Journal, 810, 166
 
 \bibitem[{Evstigneeva {et~al.}(2007)Evstigneeva, Drinkwater, Jurek, Firth,
   Jones, Gregg, \& Phillipps}]{Evstigneeva2007}
@@ -382,6 +382,13 @@ Sandage, A., Binggeli, B., \& Tammann, G.~A. 1985, The Astronomical Journal,
 Sandoval, M.~A., Vo, R.~P., Romanowsky, A.~J., {et~al.} 2015, The Astrophysical
   Journal, 808, L32
 
+\bibitem[{S\'ersic(1963)}]{Sersic1963}
+S\'ersic, J.~L. 1963, Boletin de la Asociacion Argentina de Astronomia La Plata
+  Argentina, 6, 41
+
+\bibitem[{S\'ersic(1968)}]{Sersic1968}
+---. 1968, Cordoba, Argentina: Observatorio Astronomico, 1968
+
 \bibitem[{Seth {et~al.}(2014)Seth, van~den Bosch, Mieske, Baumgardt, den Brok,
   Strader, Neumayer, Chilingarian, Hilker, McDermid, Spitler, Brodie, Frank, \&
   Walsh}]{Seth2014}
@@ -405,9 +412,9 @@ Skrutskie, M.~F., Cutri, R.~M., Stiening, R., {et~al.} 2006, The Astronomical
 {Smith Castelli}, A.~V., Faifer, F.~R., Richtler, T., \& Bassino, L.~P. 2008,
   Monthly Notices of the Royal Astronomical Society, 391, 685
 
-\bibitem[{vanÂ Dokkum(2001)}]{vanDokkum2001}
-vanÂ Dokkum, P. 2001, Publications of the Astronomical Society of the Pacific,
-  113, 1420
+\bibitem[{van Dokkum(2001)}]{vanDokkum2001}
+van Dokkum, P.~G. 2001, Publications of the Astronomical Society of the
+  Pacific, 113, 1420
 
 \bibitem[{Wirth \& {Gallagher, J. S.}(1984)}]{Wirth1984}
 Wirth, A., \& {Gallagher, J. S.}, I. 1984, The Astrophysical Journal, 282, 85

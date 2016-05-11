@@ -1,48 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paperdraft.aux
 The style file: apj.bst
 Database file #1: paperdraftNotes.bib
 Database file #2: library.bib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 81 entries,
+You've used 83 entries,
             3085 wiz_defined-function locations,
-            1279 strings with 35341 characters,
-and the built_in function-call counts, 47663 in all, are:
-= -- 3398
-> -- 4680
-< -- 20
-+ -- 1561
-- -- 1678
-* -- 4639
-:= -- 9282
-add.period$ -- 81
-call.type$ -- 81
-change.case$ -- 565
-chr.to.int$ -- 81
-cite$ -- 81
-duplicate$ -- 1556
-empty$ -- 2312
-format.name$ -- 1773
-if$ -- 9126
+            1293 strings with 35656 characters,
+and the built_in function-call counts, 48297 in all, are:
+= -- 3454
+> -- 4704
+< -- 22
++ -- 1569
+- -- 1684
+* -- 4676
+:= -- 9408
+add.period$ -- 83
+call.type$ -- 83
+change.case$ -- 575
+chr.to.int$ -- 83
+cite$ -- 83
+duplicate$ -- 1590
+empty$ -- 2364
+format.name$ -- 1781
+if$ -- 9253
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 79
-newline$ -- 247
-num.names$ -- 325
-pop$ -- 628
+missing$ -- 81
+newline$ -- 253
+num.names$ -- 333
+pop$ -- 637
 preamble$ -- 1
-purify$ -- 565
+purify$ -- 575
 quote$ -- 0
-skip$ -- 1283
+skip$ -- 1311
 stack$ -- 0
-substring$ -- 1755
+substring$ -- 1784
 swap$ -- 18
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 729
+type$ -- 747
 warning$ -- 0
-while$ -- 302
+while$ -- 309
 width$ -- 0
-write$ -- 814
+write$ -- 833
