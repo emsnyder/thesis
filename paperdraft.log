@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2016 00:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 MAY 2016 01:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -772,7 +772,7 @@ Underfull \hbox (badness 1048) in paragraph at lines 68--69
  []
 
 [2]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 98.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 100.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -784,65 +784,48 @@ Package epstopdf Info: Source file: <galfitexample.eps>
 (epstopdf)                    size: 646805 bytes
 (epstopdf)             Command: <repstopdf --outfile=galfitexample-eps-converte
 d-to.pdf galfitexample.eps>
-(epstopdf)             \includegraphics on input line 107.
+(epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<galfitexample-eps-converted-to.pdf, id=378, 803.0pt x 533.995pt>
+<galfitexample-eps-converted-to.pdf, id=379, 803.0pt x 533.995pt>
 File: galfitexample-eps-converted-to.pdf Graphic file (type pdf)
 
 <use galfitexample-eps-converted-to.pdf>
 Package pdftex.def Info: galfitexample-eps-converted-to.pdf used on input line 
-107.
+109.
 (pdftex.def)             Requested size: 401.49902pt x 266.99684pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 110.
 
 
 Class revtex4-1 Warning: Float cannot be placed.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 126.
 [3]
 
 LaTeX Warning: A float is stuck (cannot be placed) on input line 129.
 
 [4 <./galfitexample-eps-converted-to.pdf>] [5]
-Package epstopdf Info: Source file: <CCGpics.eps>
-(epstopdf)                    date: 2016-04-17 18:37:13
-(epstopdf)                    size: 1102722 bytes
-(epstopdf)             Output file: <CCGpics-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-17 18:39:10
-(epstopdf)                    size: 37794 bytes
-(epstopdf)             Command: <repstopdf --outfile=CCGpics-eps-converted-to.p
-df CCGpics.eps>
-(epstopdf)             \includegraphics on input line 182.
+Package epstopdf Info: Source file: <coretoenvelopeims.eps>
+(epstopdf)                    date: 2016-05-10 23:08:25
+(epstopdf)                    size: 2323742 bytes
+(epstopdf)             Output file: <coretoenvelopeims-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-10 23:08:44
+(epstopdf)                    size: 174780 bytes
+(epstopdf)             Command: <repstopdf --outfile=coretoenvelopeims-eps-conv
+erted-to.pdf coretoenvelopeims.eps>
+(epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
 
-<CCGpics-eps-converted-to.pdf, id=442, 451.6875pt x 112.42pt>
-File: CCGpics-eps-converted-to.pdf Graphic file (type pdf)
+<coretoenvelopeims-eps-converted-to.pdf, id=444, 771.88374pt x 268.00125pt>
+File: coretoenvelopeims-eps-converted-to.pdf Graphic file (type pdf)
 
-<use CCGpics-eps-converted-to.pdf>
-Package pdftex.def Info: CCGpics-eps-converted-to.pdf used on input line 182.
-(pdftex.def)             Requested size: 451.68639pt x 112.41972pt.
-Package epstopdf Info: Source file: <Reff_Mstars.eps>
-(epstopdf)                    date: 2016-04-29 10:49:39
-(epstopdf)                    size: 474615 bytes
-(epstopdf)             Output file: <Reff_Mstars-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-29 10:53:16
-(epstopdf)                    size: 280632 bytes
-(epstopdf)             Command: <repstopdf --outfile=Reff_Mstars-eps-converted-
-to.pdf Reff_Mstars.eps>
-(epstopdf)             \includegraphics on input line 200.
-Package epstopdf Info: Output file is already uptodate.
-
-<Reff_Mstars-eps-converted-to.pdf, id=447, 433.62pt x 361.35pt>
-File: Reff_Mstars-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Reff_Mstars-eps-converted-to.pdf>
-Package pdftex.def Info: Reff_Mstars-eps-converted-to.pdf used on input line 20
-0.
-(pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
- [6] [7 <./CCGpics-eps-converted-to.pdf> <./Reff_Mstars-eps-converted-to.pdf>]
+<use coretoenvelopeims-eps-converted-to.pdf>
+Package pdftex.def Info: coretoenvelopeims-eps-converted-to.pdf used on input l
+ine 184.
+(pdftex.def)             Requested size: 501.71849pt x 174.19873pt.
+ [6] [7 <./coretoenvelopeims-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <rf0078ppxffit.eps>
 (epstopdf)                    date: 2016-04-17 18:40:40
 (epstopdf)                    size: 1116810 bytes
@@ -851,144 +834,208 @@ Package epstopdf Info: Source file: <rf0078ppxffit.eps>
 (epstopdf)                    size: 47233 bytes
 (epstopdf)             Command: <repstopdf --outfile=rf0078ppxffit-eps-converte
 d-to.pdf rf0078ppxffit.eps>
-(epstopdf)             \includegraphics on input line 245.
+(epstopdf)             \includegraphics on input line 253.
 Package epstopdf Info: Output file is already uptodate.
 
-<rf0078ppxffit-eps-converted-to.pdf, id=526, 578.16pt x 434.62375pt>
+<rf0078ppxffit-eps-converted-to.pdf, id=539, 578.16pt x 434.62375pt>
 File: rf0078ppxffit-eps-converted-to.pdf Graphic file (type pdf)
 
 <use rf0078ppxffit-eps-converted-to.pdf>
 Package pdftex.def Info: rf0078ppxffit-eps-converted-to.pdf used on input line 
-245.
+253.
 (pdftex.def)             Requested size: 231.2599pt x 173.8464pt.
-Package epstopdf Info: Source file: <sfr_mbary.eps>
-(epstopdf)                    date: 2016-04-29 10:49:47
-(epstopdf)                    size: 940595 bytes
-(epstopdf)             Output file: <sfr_mbary-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-29 10:53:36
-(epstopdf)                    size: 573010 bytes
-(epstopdf)             Command: <repstopdf --outfile=sfr_mbary-eps-converted-to
-.pdf sfr_mbary.eps>
-(epstopdf)             \includegraphics on input line 265.
+Package epstopdf Info: Source file: <Reff_Mstars.eps>
+(epstopdf)                    date: 2016-05-09 22:10:21
+(epstopdf)                    size: 531785 bytes
+(epstopdf)             Output file: <Reff_Mstars-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-09 22:10:54
+(epstopdf)                    size: 316489 bytes
+(epstopdf)             Command: <repstopdf --outfile=Reff_Mstars-eps-converted-
+to.pdf Reff_Mstars.eps>
+(epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
 
-<sfr_mbary-eps-converted-to.pdf, id=529, 794.97pt x 361.35pt>
+<Reff_Mstars-eps-converted-to.pdf, id=540, 433.62pt x 361.35pt>
+File: Reff_Mstars-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Reff_Mstars-eps-converted-to.pdf>
+Package pdftex.def Info: Reff_Mstars-eps-converted-to.pdf used on input line 26
+9.
+(pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
+Package epstopdf Info: Source file: <sfr_mbary.eps>
+(epstopdf)                    date: 2016-05-10 20:31:49
+(epstopdf)                    size: 940469 bytes
+(epstopdf)             Output file: <sfr_mbary-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-10 20:32:34
+(epstopdf)                    size: 572928 bytes
+(epstopdf)             Command: <repstopdf --outfile=sfr_mbary-eps-converted-to
+.pdf sfr_mbary.eps>
+(epstopdf)             \includegraphics on input line 281.
+Package epstopdf Info: Output file is already uptodate.
+
+<sfr_mbary-eps-converted-to.pdf, id=543, 794.97pt x 361.35pt>
 File: sfr_mbary-eps-converted-to.pdf Graphic file (type pdf)
 
 <use sfr_mbary-eps-converted-to.pdf>
-Package pdftex.def Info: sfr_mbary-eps-converted-to.pdf used on input line 265.
+Package pdftex.def Info: sfr_mbary-eps-converted-to.pdf used on input line 281.
 
 (pdftex.def)             Requested size: 516.72438pt x 234.87471pt.
 
-Overfull \hbox (3.60695pt too wide) in paragraph at lines 265--266
+Overfull \hbox (3.60695pt too wide) in paragraph at lines 281--282
  [] 
  []
 
 [8 <./rf0078ppxffit-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <nn_groupmass_2d.eps>
-(epstopdf)                    date: 2016-04-29 10:49:42
-(epstopdf)                    size: 468393 bytes
+(epstopdf)                    date: 2016-05-09 22:10:21
+(epstopdf)                    size: 468267 bytes
 (epstopdf)             Output file: <nn_groupmass_2d-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-29 10:53:31
-(epstopdf)                    size: 276858 bytes
+(epstopdf)                    date: 2016-05-09 22:10:58
+(epstopdf)                    size: 276836 bytes
 (epstopdf)             Command: <repstopdf --outfile=nn_groupmass_2d-eps-conver
 ted-to.pdf nn_groupmass_2d.eps>
-(epstopdf)             \includegraphics on input line 282.
+(epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<nn_groupmass_2d-eps-converted-to.pdf, id=552, 433.62pt x 361.35pt>
+<nn_groupmass_2d-eps-converted-to.pdf, id=563, 433.62pt x 361.35pt>
 File: nn_groupmass_2d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use nn_groupmass_2d-eps-converted-to.pdf>
 Package pdftex.def Info: nn_groupmass_2d-eps-converted-to.pdf used on input lin
-e 282.
+e 293.
 (pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
 Package epstopdf Info: Source file: <faber-jackson_resolvesigmas.eps>
-(epstopdf)                    date: 2016-04-29 10:49:39
-(epstopdf)                    size: 57387 bytes
+(epstopdf)                    date: 2016-05-10 22:56:28
+(epstopdf)                    size: 1071578 bytes
 (epstopdf)             Output file: <faber-jackson_resolvesigmas-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2016-04-29 10:53:37
-(epstopdf)                    size: 29560 bytes
+(epstopdf)                    date: 2016-05-10 22:59:19
+(epstopdf)                    size: 55219 bytes
 (epstopdf)             Command: <repstopdf --outfile=faber-jackson_resolvesigma
 s-eps-converted-to.pdf faber-jackson_resolvesigmas.eps>
-(epstopdf)             \includegraphics on input line 294.
+(epstopdf)             \includegraphics on input line 304.
 Package epstopdf Info: Output file is already uptodate.
 
-<faber-jackson_resolvesigmas-eps-converted-to.pdf, id=555, 433.62pt x 361.35pt>
+<faber-jackson_resolvesigmas-eps-converted-to.pdf, id=567, 408.52625pt x 348.30
+125pt>
 File: faber-jackson_resolvesigmas-eps-converted-to.pdf Graphic file (type pdf)
-<use faber-jackson_resolvesigmas-eps-converted-to.pdf>
+ <use faber-jackson_resolvesigmas-eps-converted-to.pdf>
 Package pdftex.def Info: faber-jackson_resolvesigmas-eps-converted-to.pdf used 
-on input line 294.
-(pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
+on input line 304.
+(pdftex.def)             Requested size: 408.52525pt x 348.3004pt.
 
 
 Class revtex4-1 Warning: Float cannot be placed.
 
-[9 <./sfr_mbary-eps-converted-to.pdf>] [10 <./nn_groupmass_2d-eps-converted-to.
-pdf>]
+[9 <./Reff_Mstars-eps-converted-to.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 333.
+LaTeX Warning: Reference `fig:image plots' on page 10 undefined on input line 3
+36.
 
-[11 <./faber-jackson_resolvesigmas-eps-converted-to.pdf>]
+[10 <./sfr_mbary-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <miniplots.eps>
-(epstopdf)                    date: 2016-04-29 10:49:40
-(epstopdf)                    size: 1601654 bytes
+(epstopdf)                    date: 2016-05-10 22:57:56
+(epstopdf)                    size: 7188618 bytes
 (epstopdf)             Output file: <miniplots-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-29 10:53:46
-(epstopdf)                    size: 971905 bytes
+(epstopdf)                    date: 2016-05-10 22:59:21
+(epstopdf)                    size: 1054928 bytes
 (epstopdf)             Command: <repstopdf --outfile=miniplots-eps-converted-to
 .pdf miniplots.eps>
-(epstopdf)             \includegraphics on input line 336.
+(epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
 
-<miniplots-eps-converted-to.pdf, id=601, 722.7pt x 794.97pt>
+<miniplots-eps-converted-to.pdf, id=611, 687.56876pt x 724.7075pt>
 File: miniplots-eps-converted-to.pdf Graphic file (type pdf)
 
 <use miniplots-eps-converted-to.pdf>
-Package pdftex.def Info: miniplots-eps-converted-to.pdf used on input line 336.
+Package pdftex.def Info: miniplots-eps-converted-to.pdf used on input line 344.
 
-(pdftex.def)             Requested size: 505.88655pt x 556.4752pt.
+(pdftex.def)             Requested size: 481.29485pt x 507.2918pt.
 
 
 Class revtex4-1 Warning: Float cannot be placed.
 
-(./paperdraft.bbl [12]
+Package epstopdf Info: Source file: <imageplots.eps>
+(epstopdf)                    date: 2016-05-10 21:33:39
+(epstopdf)                    size: 3983258 bytes
+(epstopdf)             Output file: <imageplots-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-10 22:59:23
+(epstopdf)                    size: 317833 bytes
+(epstopdf)             Command: <repstopdf --outfile=imageplots-eps-converted-t
+o.pdf imageplots.eps>
+(epstopdf)             \includegraphics on input line 352.
+Package epstopdf Info: Output file is already uptodate.
+<imageplots-eps-converted-to.pdf, id=613, 674.52pt x 776.9025pt>
+File: imageplots-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 159.
+<use imageplots-eps-converted-to.pdf>
+Package pdftex.def Info: imageplots-eps-converted-to.pdf used on input line 352
+.
+(pdftex.def)             Requested size: 472.16078pt x 543.82803pt.
 
-[13 <./miniplots-eps-converted-to.pdf>]) [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
+
+Class revtex4-1 Warning: Float cannot be placed.
+
+[11 <./nn_groupmass_2d-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 377.
+
+[12 <./faber-jackson_resolvesigmas-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 377.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+(./paperdraft.bbl [13]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 232.
+
+[14 <./miniplots-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 232.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+) [15] [16 <./imageplots-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
  (./paperdraft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 391.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 391.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 407.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 407.
 Package rerunfilecheck Info: File `paperdraft.out' has not changed.
-(rerunfilecheck)             Checksum: FAF424005D5DBCF60BE815703C2B4724;1893.
+(rerunfilecheck)             Checksum: F53B74E38A033DBC44A2ADD0B42FC0E5;1669.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 9886 strings out of 493117
- 140383 string characters out of 6135433
- 284014 words of memory out of 5000000
- 13002 multiletter control sequences out of 15000+600000
+ 9926 strings out of 493117
+ 141194 string characters out of 6135433
+ 276581 words of memory out of 5000000
+ 13033 multiletter control sequences out of 15000+600000
  83031 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,28p,2221b,579s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,28p,2243b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/
-times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on paperdraft.pdf (14 pages, 3002336 bytes).
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
+1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on paperdraft.pdf (16 pages, 3546718 bytes).
 PDF statistics:
- 710 PDF objects out of 1000 (max. 8388607)
- 647 compressed objects within 7 object streams
- 143 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 776 PDF objects out of 1000 (max. 8388607)
+ 697 compressed objects within 7 object streams
+ 151 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

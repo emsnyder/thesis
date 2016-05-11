@@ -51,6 +51,10 @@ Berlind, A.~A., Frieman, J., Weinberg, D.~H., {et~al.} 2006, The Astrophysical
 Bertin, E., \& Arnouts, S. 1996, Astronomy and Astrophysics Supplement Series,
   117, 393
 
+\bibitem[{Binggeli {et~al.}(1984)Binggeli, Sandage, \& Tarenghi}]{Binggeli1984}
+Binggeli, B., Sandage, A., \& Tarenghi, M. 1984, The Astronomical Journal, 89,
+  64
+
 \bibitem[{Binggeli \& Cameron(1991)}]{Binggeli1991}
 Binggeli, Â., \& Cameron, Â. 1991, Astronomy and Astrophysics (ISSN 0004-6361),
   252, 27
@@ -113,6 +117,10 @@ Crawford, S.~M., Wirth, G.~D., Bershady, M.~A., \& Randriamampandry, S.~M.
 CrnojeviÂ , D., Ferguson, A. M.~N., Irwin, M.~J., {et~al.} 2014, Monthly
   Notices of the Royal Astronomical Society, 445, 3862
 
+\bibitem[{Dekel \& Burkert(2013)}]{Dekel2013}
+Dekel, A., \& Burkert, A. 2013, Monthly Notices of the Royal Astronomical
+  Society, 438, 1870
+
 \bibitem[{Drinkwater {et~al.}(2000)Drinkwater, Jones, Gregg, \&
   Phillipps}]{Drinkwater2000}
 Drinkwater, M.~J., Jones, J.~B., Gregg, M.~D., \& Phillipps, S. 2000,
@@ -167,6 +175,14 @@ Forbes, D.~A., Norris, M.~A., Strader, J., {et~al.} 2014, Monthly Notices of
 
 \bibitem[{Graham(2002)}]{Graham2002}
 Graham, A.~W. 2002, The Astrophysical Journal, 568, L13
+
+\bibitem[{Grant {et~al.}(2005)Grant, Kuipers, \& Phillipps}]{Grant2005}
+Grant, N.~I., Kuipers, J.~A., \& Phillipps, S. 2005, Monthly Notices of the
+  Royal Astronomical Society, 363, 1019
+
+\bibitem[{Greisen \& Calabretta(2002)}]{Greisen2002}
+Greisen, E.~W., \& Calabretta, M.~R. 2002, Astronomy and Astrophysics, 395,
+  1061
 
 \bibitem[{Guzm{\'{a}}n {et~al.}(1996)Guzm{\'{a}}n, Koo, Faber, Illingworth,
   Takamiya, Kron, \& Bershady}]{Guzman1996}
@@ -275,6 +291,11 @@ Liu, C., Peng, E.~W., C{\^{o}}t{\'{e}}, P., {et~al.} 2015, The Astrophysical
 Madrid, J.~P., Graham, A.~W., Harris, W.~E., {et~al.} 2010, The Astrophysical
   Journal, 722, 1707
 
+\bibitem[{Maraston {et~al.}(2004)Maraston, Bastian, Saglia, Kissler-Patig,
+  Schweizer, \& Goudfrooij}]{Maraston2004}
+Maraston, C., Bastian, N., Saglia, R.~P., {et~al.} 2004, Astronomy and
+  Astrophysics, 416, 467
+
 \bibitem[{Maraston \& Str{\"{o}}mb{\"{a}}ck(2011)}]{Maraston2011}
 Maraston, C., \& Str{\"{o}}mb{\"{a}}ck, G. 2011, Monthly Notices of the Royal
   Astronomical Society, 418, 2785
@@ -350,6 +371,10 @@ Phillipps, S., Drinkwater, M.~J., Gregg, M.~D., \& Jones, J.~B. 2001, The
   Merritt, Balcells, Erwin, \& Puzia}]{Price2009}
 Price, J., Phillipps, S., Huxor, A., {et~al.} 2009, Monthly Notices of the
   Royal Astronomical Society, 397, 1816
+
+\bibitem[{Sandage {et~al.}(1985)Sandage, Binggeli, \& Tammann}]{Sandage1985}
+Sandage, A., Binggeli, B., \& Tammann, G.~A. 1985, The Astronomical Journal,
+  90, 1759
 
 \bibitem[{Sandoval {et~al.}(2015)Sandoval, Vo, Romanowsky, Strader, Choi,
   Jennings, Conroy, Brodie, Foster, Villaume, Norris, Janz, \&
